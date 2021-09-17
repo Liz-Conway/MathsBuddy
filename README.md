@@ -56,8 +56,6 @@ MathsBuddy gives access to tutorial videos and past exam questions, broken down 
 - Performance
 - Navigation 
     - Straightforward navigation enabling users to move easily from one part of the site to another.
-    - Using a BootStrap responsive navigation bar
-    - Each navbar menu item will have submenus and / or subitems.
 - Image Treatment 
     - Images are compressed to reduce download times.
     - Multiple versions of each image are used, with smaller images used for smaller devices.  This reduces the download times for tablets and especially mobile devices.

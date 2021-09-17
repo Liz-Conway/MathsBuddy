@@ -32,6 +32,7 @@ body {
 .header {
     display: flex;
     flex-direction: row;
+    background-color: #b7b6b5;
   }
   .headerLogoBox {
     flex-grow: 1;
@@ -43,6 +44,8 @@ body {
     display: flex;
     flex-direction: row;
     line-height: 7.5rem;
+    font-size: 110%;
+    letter-spacing: 4px;
     text-transform: uppercase;
   }
   .headerMenu li {
@@ -52,4 +55,9 @@ body {
   .headerMenu a {
     color: inherit;
   }
-  
+  .headerMenu a:hover {
+    background-color: #848384;
+  }
+  .headerMenuActive {
+    border-bottom: 1px solid #504a50;
+  }

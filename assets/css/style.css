@@ -1,0 +1,17 @@
+/* Basic reset */
+*, *::after, *::before {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    /* Since browser default font-size is 16px*/
+    /* Set it to 10px to make converting px to rem easier. */
+    /* Use a percentage so that if a user changes the font size */
+    /* on their browser, or zooms the font sizes, padding  */
+    /* and margins adjust accordingly. */
+    font-size: 62.5%;
+  }
+  

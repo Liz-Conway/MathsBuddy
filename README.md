@@ -1,108 +1,110 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Liz-Conway,
+# MathsBuddy
+MathsBuddy is a website that provides online learning for maths to students who wish to take the Junior Cycle exam.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Overview
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+### Who is this app for?
+ 
+MathsBuddy is a website which provides resources for students who will be taking the Junior Cycle exam in Ireland.  These students will be aged between 14 and 16 years old.  MathsBuddy is a website which will be used by students who are in high-risk families and are not entitled to online instruction from the department of education.  
+ 
+### What does it do?
+ MathsBuddy hopes to bridge the gap during the current covid-19 crisis by offering an opportunity to solidify maths concepts up to Junior Cycle level.
+ 
+### How does it work
+ 
+MathsBuddy gives access to tutorial videos and past exam questions, broken down by topic, for the Junior Cycle maths exam.
 
-## Gitpod Reminders
+## Screen Mockups
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Features
 
-`python3 -m http.server`
+### Existing Features
+- None yet!
+ 
+### Features Left to Implement
+1 Site navigation
 
-A blue button should appear to click: _Make Public_,
+2 Show videos on each topic
 
-Another blue button should appear to click: _Open Browser_.
+       2.1 Videos stored locally
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+       2.2 Videos from external sources.  E.g. Youtube, Khan Academy
 
-A blue button should appear to click: _Make Public_,
+3 Display past exam papers for each topic   
+ 
+## Design Decisions
+### Code Quality
+- Correct use of HTML 
+    - Use HTML5 Semantic elements
+    - Use Horizontal NavBar
+- Correct use of CSS 
+    - Use Flexbox for page layout
+	
+### Usability
+- Suitability for purpose 
+- Ease of use
+    - A simple easy-to-use application focusing on reducing the 'cognitive load' on users.  The system is designed so that users do not have to remember large amounts of detail.
+- Information Display 
 
-Another blue button should appear to click: _Open Browser_.
+### Layout and Visual Impact
+- Responsive Design 
+    - "Desktop First" design philosophy
+    - FlexBox is used to give responsive layouts
+    - Media Queries are used for each different screen size the tool will be used on.
+- Performance
+- Navigation 
+    - Straightforward navigation enabling users to move easily from one part of the site to another.
+    - Using a BootStrap responsive navigation bar
+    - Each navbar menu item will have submenus and / or subitems.
+- Image Treatment 
+    - Images are compressed to reduce download times.
+    - Multiple versions of each image are used, with smaller images used for smaller devices.  This reduces the download times for tablets and especially mobile devices.
+- Non-image Content 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Software Development Process
+#### Version Control 
+**Git** is used for version control of this project
+- Git commit message prefix convention denoting the type of change made in this commit:
+    - DOC: Documentation
+    - FEAT: Feature
+    - FIX: Bugfix
+    - STYLE: Changes to CSS
+- Git messages will be no longer than 50 characters long.
 
-To log into the Heroku toolbelt CLI:
+**GitHub** is used as the central version control repository for this project.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+**Cloning versus Forking**
+#### Testing 
+All testing on the MathsBuddy website will be done manually.
+##### **Test scripts**
+Test Script 1
+- Expected result
+- Steps
+1. Step 1
+2. Step 2
+- Actual result
+#### Documentation  
+- README.md :  Comprehensive overview of the MathsBuddy website detailing how it works, what its features are, the technologies involved and all the design decisions that were made in creating this learning resource.
+- Vision doc :  Business needs and feature list.
+- WireFrames :  Wireframes for each different layout.
+- Site map :  Basic site map with prioritisation and categorisation of each page.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+#### Deployment 
+- This project is deployed to [Github Pages](Link to follow)
 
-------
+## Technology Used
 
-## Release History
+### Some of the technology used includes:
+- [HTML5](https://dev.w3.org/html5/spec-LC/)
+    - **HTML5** is used to develop the content of the MathsBuddy website.
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+    - **CSS** is used to layout the HTML elements on each page of the MathsBuddy website.
+- [FlexBox](https://www.w3.org/TR/css-flexbox-1/)
+    - **FlexBox** is used to give the MathsBuddy website a simple, responsive layout.
+ 
+## Contributing
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+### Getting the code up and running
+1. Firstly you will need to clone this repository by running the ```git clone https://github.com/Liz-Conway/MathsBuddy.git``` command

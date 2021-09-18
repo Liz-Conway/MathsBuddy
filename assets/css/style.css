@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Gabriela&family=Roboto+Slab");
 
 /* Basic reset */
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   text-decoration: none;
   padding: 0;
   margin: 0;
@@ -24,7 +26,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.7;
   color: #504a50;
-  
+
   /* Non-inheritable*/
   padding: 3rem;
 }
@@ -33,68 +35,110 @@ body {
   margin-top: 2rem;
 }
 
-.header {
-    display: flex;
-    flex-direction: row;
-    background-color: #b7b6b5;
-  }
-  .headerLogoBox {
-    flex-grow: 1;
-  }
-  .headerLogoBox {
-    flex-grow: 1;
-  }
-  .headerMenu {
-    display: flex;
-    flex-direction: row;
-    line-height: 7.5rem;
-    font-size: 110%;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-  }
-  .headerMenu li {
-    list-style-type: none;
-    margin-right: 3rem;
-  }
-  .headerMenu a {
-    color: inherit;
-  }
-  .headerMenu a:hover {
-    background-color: #848384;
-  }
-  .headerMenuActive {
-    border-bottom: 1px solid #504a50;
-  }
-  
-  .sectionSplash {
-    /* Default background colour for if the video does not load */
-    background-color: #b7b6b5;
-    width: 100%;
-    height: 75vh;
-    padding: 3rem 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.utilMarginBottomSmall {
+  margin-bottom: 2rem;
+}
 
-  .headingPrimary {
-    color: #504a50;
-    text-transform: uppercase;
-    margin-bottom: 6rem;
-    flex-grow: 1;
-  }
-  .headingPrimaryTitle {
-    display: block;
-    font-size: 6rem;
-    font-weight: 400;
-    letter-spacing: 3.5rem;
-  }
-  .headingPrimarySub {
-    display: block;
-    font-size: 2rem;
-    font-weight: 600;
-    letter-spacing: 1.75rem;
-    /* Align the second span (subtitle) with the centre of the first span (title) */
-    transform: translateX(11%);
-  }
-  
+.utilMarginBottomMedium {
+  margin-bottom: 4rem;
+}
+
+.btn {
+  background-color: #b7b6b5;
+  color: #504a50;
+  border: 3px solid #504a50;
+  text-align: center;
+}
+
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 1.5rem 4rem;
+  border-radius: 10rem;
+  font-size: 1.6rem;
+}
+
+.btn:hover,
+.btn:active {
+  color: #fffe87;
+  background-color: #504a50;
+}
+
+.btnCTA {
+  background-color: #fffe87;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: #b7b6b5;
+}
+
+.headerLogoBox {
+  flex-grow: 1;
+}
+
+.headerLogoBox {
+  flex-grow: 1;
+}
+
+.headerMenu {
+  display: flex;
+  flex-direction: row;
+  line-height: 7.5rem;
+  font-size: 110%;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.headerMenu li {
+  list-style-type: none;
+  margin-right: 3rem;
+}
+
+.headerMenu a {
+  color: inherit;
+}
+
+.headerMenu a:hover {
+  background-color: #848384;
+}
+
+.headerMenuActive {
+  border-bottom: 1px solid #504a50;
+}
+
+.sectionSplash {
+  /* Default background colour for if the video does not load */
+  background-color: #b7b6b5;
+  width: 100%;
+  height: 75vh;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headingPrimary {
+  color: #504a50;
+  text-transform: uppercase;
+  margin-bottom: 6rem;
+  flex-grow: 1;
+}
+
+.headingPrimaryTitle {
+  display: block;
+  font-size: 6rem;
+  font-weight: 400;
+  letter-spacing: 3.5rem;
+}
+
+.headingPrimarySub {
+  display: block;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1.75rem;
+  /* Align the second span (subtitle) with the centre of the first span (title) */
+  transform: translateX(11%);
+}

@@ -110,6 +110,11 @@ body {
 }
 
 .sectionSplash {
+  /* Background colour is only here as a fall back */ 
+  /* if the video does not show. */
+  /* Need a low opacity (0.2) so that the video will */
+  /* show through the background colour. */
+  background-color: rgba(80, 74, 80, 0.2);
   width: 100%;
   height: 75vh;
   padding: 3rem 0;

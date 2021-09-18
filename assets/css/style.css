@@ -67,6 +67,8 @@ body {
   }
   
   .sectionSplash {
+    /* Default background colour for if the video does not load */
+    background-color: #b7b6b5;
     width: 100%;
     height: 75vh;
     padding: 3rem 0;

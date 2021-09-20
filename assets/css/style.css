@@ -45,9 +45,10 @@ body {
 
 .btn {
   background-color: #b7b6b5;
-  color: #504a50;
-  border: 3px solid #504a50;
+  color: #172726;
+  border: 3px solid #172726;
   text-align: center;
+  transition: all 0.2s;
 }
 
 .btn:link,
@@ -59,10 +60,20 @@ body {
   font-size: 1.6rem;
 }
 
-.btn:hover,
+.btn:hover {
+  /* Make the button pop up => 3D effect */
+  transform: translateY(-0.5rem);
+  /* Box Shadow X Y Blur Colour*/
+  box-shadow: 0 1rem 2rem rgba(23, 39, 38, 0.2);
+}
+
 .btn:active {
   color: #fffe87;
-  background-color: #504a50;
+  background-color: #172726;
+  /* Make the button appear to be pressed => 3D effect */
+  transform: translateY(-0.1rem);
+  /* Box Shadow X Y Blur Colour*/
+  box-shadow: 0 1rem 2rem rgba(23, 39, 38, 0.2);
 }
 
 .btnCTA {
@@ -110,7 +121,7 @@ body {
 }
 
 .sectionSplash {
-  /* Background colour is only here as a fall back */ 
+  /* Background colour is only here as a fall back */
   /* if the video does not show. */
   /* Need a low opacity (0.2) so that the video will */
   /* show through the background colour. */
@@ -126,8 +137,9 @@ body {
 }
 
 .headingPrimary {
-  color: #504a50;
+  color: #172726;
   text-transform: uppercase;
+  text-shadow: -1px -1px 0 #fffe87, -1px 1px 0 #fffe87, 1px -1px 0 #fffe87, 1px 1px 0 #fffe87;
   margin-bottom: 6rem;
   flex-grow: 1;
 }
@@ -144,8 +156,8 @@ body {
   font-size: 2rem;
   font-weight: 600;
   letter-spacing: 1.75rem;
-  /* Align the second span (subtitle) with the centre of the first span (title) */
-  transform: translateX(11%);
+  /* Centre under the 'MathsBuddy' heading */
+  transform: translateX(17%);
 }
 
 .bgVideo {
@@ -156,6 +168,7 @@ body {
   width: 100%;
   /* Only works with 'position'ed elements */
   z-index: -1;
+  opacity: .15;
   overflow: hidden;
 }
 
@@ -169,10 +182,10 @@ body {
   object-fit: cover;
 }
 
-.videoAttribution {
-  color: transparent;
-}
-
-.videoAttribution a {
-  color: transparent;
+/* This attribution is required for */
+/* permission to show the video */
+.attribution {
+  display: flex;
+  height: 50vh;
+  align-items: flex-end;
 }

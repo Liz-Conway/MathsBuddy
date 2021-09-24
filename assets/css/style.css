@@ -139,7 +139,6 @@ body {
 .headingPrimary {
   color: #172726;
   text-transform: uppercase;
-  text-shadow: -1px -1px 0 #fffe87, -1px 1px 0 #fffe87, 1px -1px 0 #fffe87, 1px 1px 0 #fffe87;
   margin-bottom: 6rem;
   flex-grow: 1;
 }
@@ -149,15 +148,17 @@ body {
   font-size: 6rem;
   font-weight: 400;
   letter-spacing: 3.5rem;
+  text-shadow: -1px -1px 0 #fffe87, -1px 1px 0 #fffe87, 1px -1px 0 #fffe87, 1px 1px 0 #fffe87;
 }
 
-.headingPrimarySub {
+.headingPrimarySubtitle {
   display: block;
   font-size: 2rem;
   font-weight: 600;
   letter-spacing: 1.75rem;
   /* Centre under the 'MathsBuddy' heading */
   transform: translateX(17%);
+  text-shadow: -1px -1px 0 #fffe87, -1px 1px 0 #fffe87, 1px -1px 0 #fffe87, 1px 1px 0 #fffe87;
 }
 
 .bgVideo {
@@ -189,3 +190,17 @@ body {
   height: 50vh;
   align-items: flex-end;
 }
+
+/* Utility classes for common margins, padding, centring, etc. */
+.utilCentreText {
+  text-align: center;
+}
+
+.utilMarginTopMedium {
+  margin-top: 4rem;
+}
+
+.utilMarginBottomMedium {
+  margin-top: 4rem;
+}
+

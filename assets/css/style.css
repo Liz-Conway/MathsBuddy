@@ -196,13 +196,30 @@ body {
   text-align: center;
 }
 
+.utilMarginTopSmall {
+  margin-top: 2rem;
+}
+
 .utilMarginTopMedium {
   margin-top: 4rem;
 }
 
-.utilMarginBottomMedium {
-  margin-top: 4rem;
+.utilMarginTopBig {
+  margin-top: 8rem;
 }
+
+.utilMarginBottomSmall {
+  margin-bottom: 2rem;
+}
+
+.utilMarginBottomMedium {
+  margin-bottom: 4rem;
+}
+
+.utilMarginBottomBig {
+  margin-bottom: 8rem;
+}
+
 
 .card {
   /* Perspective needs to be on the parent of the element */
@@ -327,6 +344,17 @@ body {
 
 .videosContent {
   width: 100%;
+}
+
+.videosNavigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.videosNavigationLink:link,
+.videosNavigationLink:visited {
+  color: #172726;
 }
 
 .examButton {

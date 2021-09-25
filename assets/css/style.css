@@ -328,3 +328,8 @@ body {
 .videosContent {
   width: 100%;
 }
+
+.examButton {
+  display: flex;
+  justify-content: flex-end;
+}

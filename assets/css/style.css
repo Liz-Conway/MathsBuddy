@@ -361,3 +361,18 @@ body {
   display: flex;
   justify-content: flex-end;
 }
+
+.question {
+  position: relative;
+}
+
+.questionTitle {
+  position: absolute;
+  top: 5rem;
+  /*********************************************************/
+  /* Trick to centre absolute positioned text */
+  /* Move the left of the title to the centre of the screen */
+  left: 50%;
+  /* Then shift it back to the left by half of its own size */
+  transform: translateX(-50%);
+}

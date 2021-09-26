@@ -346,14 +346,14 @@ body {
   width: 100%;
 }
 
-.videosNavigation {
+.breadcrumbNavigation {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.videosNavigationLink:link,
-.videosNavigationLink:visited {
+.breadcrumbNavigationLink:link,
+.breadcrumbNavigationLink:visited {
   color: #172726;
 }
 

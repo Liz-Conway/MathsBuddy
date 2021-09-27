@@ -33,11 +33,12 @@
     </header>
     
     <main>
-    	<h1 class="headingPrimary">I have a maths query</h1>
-    	<form action="https://formdump.codeinstitute.net/" method="post" class="contactForm">
+    	<h1 class="headingPrimary utilCentreText">I have a maths query</h1>
+    	<form action="https://formdump.codeinstitute.net/" 
+    			method="post" class="contactForm">
     		<div class="contactMyName">
 	    		<label for="contactName">My name is</label>
-    			<input type="text" id="contactName" name="contactName">
+    			<input type="text" id="contactName" name="contactName" placeholder="My name">
     		</div>
     		<div class="contactInterest">
 	    		<label for="contactType">I am a </label>
@@ -58,12 +59,16 @@
     		</div>
     		<div class="contactQuestion">
 	    		<label class="contactEmail">I'd like to ask a question, you can contact me at </label>
-    			<input type="text" id="contactEmail" name="contactEmail">
+    			<input type="text" id="contactEmail" name="contactEmail" placeholder="My email address">
     		</div>
     		<div class="contactQuery">
-	    		<textarea rows="5" cols="20" placeholder="Type query here"></textarea>
+	    		<textarea placeholder="Type query here"></textarea>
     		</div>
-    		<input type="submit" id="contactSubmit">
+    		<div class="contactButtons">
+	    		<input type="submit" id="contactSubmit" class="btn btnCTA contactButton">
+	    		<input type="button" id="contactCancel" class="btn btnGhost contactButton" value="Cancel">
+	    		<input type="reset" id="contactReset" class="btn btnTextOnly contactButton" value="Clear Form">
+    		</div>
     	</form>
     </main>
     

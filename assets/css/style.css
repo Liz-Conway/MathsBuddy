@@ -44,20 +44,16 @@ body {
 }
 
 .btn {
-  background-color: #b7b6b5;
-  color: #172726;
-  border: 3px solid #172726;
-  text-align: center;
-  transition: all 0.2s;
-}
-
-.btn:link,
-.btn:visited {
   text-transform: uppercase;
   display: inline-block;
   padding: 1.5rem 4rem;
   border-radius: 10rem;
   font-size: 1.6rem;
+  background-color: #b7b6b5;
+  color: #172726;
+  border: 3px solid #172726;
+  text-align: center;
+  transition: all 0.2s;
 }
 
 .btn:hover {
@@ -78,6 +74,26 @@ body {
 
 .btnCTA {
   background-color: #fffe87;
+}
+
+.btnGhost {
+  background-color: #bcc0c1;
+}
+
+.btnGhost:hover,
+.btnGhost:active {
+  color: #bcc0c1;
+}
+
+.btnTextOnly {
+  border: none;
+  background-color: transparent;
+}
+
+.btnTextOnly:hover,
+.btnTextOnly:active {
+  background-color: transparent;
+  color: #848384;
 }
 
 .header {
@@ -383,4 +399,42 @@ body {
   left: 50%;
   /* Then shift it back to the left by half of its own size */
   transform: translateX(-50%);
+}
+
+.contactForm {
+  background-color: #b7b6b5;
+  font-size: 2.5rem;
+  padding: 2rem;
+}
+
+.contactForm>*:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.contactForm input,
+.contactForm select,
+.contactForm textArea {
+  font-family: Roboto Slab;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.contactForm textArea {
+  width: 100%;
+  height: 15rem;
+}
+
+.contactForm .contactButtons {
+  display: flex;
+  flex-direction: row;
+}
+
+.contactForm .contactButton {
+  font-size: 1.5rem;
+}
+
+.contactForm #contactSubmit {
+  /* Shift the buttons to the right of the submit button */
+  /* over to the right hand side */
+  margin-right: auto;
 }

@@ -438,3 +438,11 @@ body {
   /* over to the right hand side */
   margin-right: auto;
 }
+
+.footer {
+  background-color: #172726;
+  color: #bcc0c1;
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem 0;
+}

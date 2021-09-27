@@ -350,11 +350,19 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 1.1rem;
+  border-bottom: 1px solid #172726;
+  margin-bottom: 1rem;
 }
 
-.breadcrumbNavigationLink:link,
-.breadcrumbNavigationLink:visited {
+.breadcrumbLink:link,
+.breadcrumbLink:visited {
   color: #172726;
+}
+
+.breadcrumbLink:hover {
+  border-bottom: 1px solid #172726;
+  background-color: #848384;
 }
 
 .examButton {

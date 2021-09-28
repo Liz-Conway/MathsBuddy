@@ -201,10 +201,12 @@ body {
 
 /* This attribution is required for */
 /* permission to show the video */
-.attribution {
-  display: flex;
-  height: 50vh;
-  align-items: flex-end;
+.attributionText {
+  align-self: flex-start;
+  color: #848384;
+}
+.attributionLink:link, .attributionLink:visited {
+  color: #848384;
 }
 
 /* Utility classes for common margins, padding, centring, etc. */

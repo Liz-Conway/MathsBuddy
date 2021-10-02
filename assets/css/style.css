@@ -429,3 +429,23 @@ body {
 .aboutText {
   padding: 0 3rem;
 }
+
+.question {
+  position: relative;
+}
+
+.questionTitle {
+  position: absolute;
+  top: 5rem;
+  /*********************************************************/
+  /*https://stackoverflow.com/questions/8508275/how-to-center-a-position-absolute-element*/
+  /* Trick to centre absolute positioned text */
+  /* Move the left of the title to the centre of the screen */
+  left: 50%;
+  /* Then shift it back to the left by half of its own size */
+  transform: translateX(-50%);
+}
+
+.questionImage {
+  width: 100%;
+}

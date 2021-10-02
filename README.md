@@ -57,8 +57,8 @@ MathsBuddy gives access to tutorial videos and past exam questions, broken down 
 - Navigation 
     - Straightforward navigation enabling users to move easily from one part of the site to another.
 - Image Treatment 
-    - Images are compressed to reduce download times.
-    - Multiple versions of each image are used, with smaller images used for smaller devices.  This reduces the download times for tablets and especially mobile devices.
+    - Images are compressed to reduce download times.  [tinypng.com](https://tinypng.com) and [tinyjpg.com](https://tinyjpg.com) were used to compress the  image files.
+    - Multiple versions of each image are used, with smaller images used for smaller devices.  This reduces the download times for tablets and especially mobile devices.  The HTML5 <source> element is used and its *srcset* attribute is set to show the smaller image at lower screen widths.  For background images, a media query is used in CSS to set the background image to a smaller image when the screen size falls below a particular size.
 - Non-image Content 
 
 ### Software Development Process

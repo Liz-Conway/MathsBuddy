@@ -267,11 +267,6 @@ body {
   margin-left: 4rem;
 }
 
-.mathsTopics .inspirationalQuote {
-  flex: 2;
-  min-height: 50vh;
-}
-
 .inspirationalQuote {
   display: flex;
   flex-direction: column;
@@ -281,6 +276,8 @@ body {
   background-image: url("../images/blackboard.jpg");
   background-size: cover;
   padding-top: 3rem;
+  flex: 2;
+  min-height: 50vh;
 }
 
 .inspirationalQuote p {
@@ -290,7 +287,7 @@ body {
 .inspirationalQuote .quality {
   text-shadow: -1px -1px 0 #fffe87, -1px 1px 0 #fffe87, 1px -1px 0 #fffe87, 1px 1px 0 #fffe87;
   font-size: 2rem;
-  letter-spacing: 1rem;
+  letter-spacing: .7rem;
 }
 
 .topicsHeading {
@@ -448,4 +445,10 @@ body {
 
 .questionImage {
   width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  .inspirationalQuote {
+    background-image: url("../images/blackboard-small.jpg");
+  }
 }

@@ -698,6 +698,7 @@ body {
   width: 100%;
   height: 75vh;
   padding: 3rem 0;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -995,8 +996,90 @@ body {
   width: 100%;
 }
 
+/* For tablets in landscape orientation */
+@media only screen and (max-width: 950px) {
+  .headingPrimaryTitle {
+    font-size: 5rem;
+    letter-spacing: 3rem;
+    transform: translateX(1.25rem);
+  }
+
+  .headingPrimarySubtitle {
+    transform: translateX(15%);
+  }
+
+}
+
+/* For tablets in portrait orientation */
 @media only screen and (max-width: 800px) {
   .inspirationalQuote {
     background-image: url("../images/blackboard-small.jpg");
+  }
+
+  body {
+    padding: 0;
+  }
+
+  .headingPrimaryTitle {
+    font-size: 4rem;
+    letter-spacing: 2.25rem;
+    transform: translateX(2%);
+  }
+
+  .headingPrimarySubtitle {
+    letter-spacing: 1rem;
+    transform: translateX(11%);
+  }
+
+  .headerMenu {
+    font-size: 100%;
+    letter-spacing: 3px;
+  }
+
+  .headerMenu li {
+    margin-right: 2rem;
+  }
+
+  .footer {
+    font-size: 90%;
+  }
+}
+
+/* For mobile phones */
+@media only screen and (max-width: 600px) {
+  .headerMenu {
+    letter-spacing: 2px;
+  }
+
+  .headerMenu li {
+    margin-right: 1rem;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer div:not(:last-child) {
+    padding-bottom: 0.5rem;
+  }
+}
+
+/* For small mobile phones */
+@media only screen and (max-width: 480px) {
+  .headerMenu {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .headerMenu li {
+    line-height: initial;
+  }
+
+  .headerMenu li:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+
+  .headerMenu li:first-child {
+    margin-top: 0.5rem;
   }
 }

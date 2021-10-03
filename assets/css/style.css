@@ -142,7 +142,10 @@ body {
   top: 3rem;
   left: 3rem;
 }
-.headerLogoBox *, .headerLogoBox *::after, .headerLogoBox *::before {
+
+.headerLogoBox *,
+.headerLogoBox *::after,
+.headerLogoBox *::before {
   position: absolute;
 }
 
@@ -150,425 +153,532 @@ body {
   width: 15px;
   height: 7.5px;
 }
-.hexagon, .hexagon span {
+
+.hexagon,
+.hexagon span {
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+
 .hexagon span {
   animation: hexagon 3s linear infinite;
 }
-.hexagon span:after, .hexagon span:before {
+
+.hexagon span:after,
+.hexagon span:before {
   content: "";
   background-color: currentColor;
   width: 3px;
   height: 3px;
   border-radius: 50%;
 }
+
 .hexagon span:before {
   transform: translate(7.5px, -3.75px);
 }
+
 .hexagon span:after {
   transform: translate(-7.5px, 3.75px);
 }
+
 .hexagon:nth-child(1) {
   transform: rotate(-7.2deg) translate(28px);
-  color: #ff1f00;
+  color: #81807e;
 }
+
 .hexagon:nth-child(1) span {
   animation-delay: -0.18s;
-  background-color: rgba(255, 31, 0, 0.5);
+  background-color: rgba(129, 128, 126, 0.5);
 }
+
 .hexagon:nth-child(2) {
   transform: rotate(-14.4deg) translate(28px);
-  color: #ff3d00;
+  color: #82807d;
 }
+
 .hexagon:nth-child(2) span {
   animation-delay: -0.36s;
-  background-color: rgba(255, 61, 0, 0.5);
+  background-color: rgba(130, 128, 125, 0.5);
 }
+
 .hexagon:nth-child(3) {
   transform: rotate(-21.6deg) translate(28px);
-  color: #ff5c00;
+  color: #83827c;
 }
+
 .hexagon:nth-child(3) span {
   animation-delay: -0.54s;
-  background-color: rgba(255, 92, 0, 0.5);
+  background-color: rgba(131, 130, 124, 0.5);
 }
+
 .hexagon:nth-child(4) {
   transform: rotate(-28.8deg) translate(28px);
-  color: #ff7a00;
+  color: #85837a;
 }
+
 .hexagon:nth-child(4) span {
   animation-delay: -0.72s;
-  background-color: rgba(255, 122, 0, 0.5);
+  background-color: rgba(133, 131, 122, 0.5);
 }
+
 .hexagon:nth-child(5) {
   transform: rotate(-36deg) translate(28px);
-  color: #ff9900;
+  color: #868579;
 }
+
 .hexagon:nth-child(5) span {
   animation-delay: -0.9s;
-  background-color: rgba(255, 153, 0, 0.5);
+  background-color: rgba(134, 133, 121, 0.5);
 }
+
 .hexagon:nth-child(6) {
   transform: rotate(-43.2deg) translate(28px);
-  color: #ffb800;
+  color: #878778;
 }
+
 .hexagon:nth-child(6) span {
   animation-delay: -1.08s;
-  background-color: rgba(255, 184, 0, 0.5);
+  background-color: rgba(135, 135, 120, 0.5);
 }
+
 .hexagon:nth-child(7) {
   transform: rotate(-50.4deg) translate(28px);
-  color: #ffd600;
+  color: #868877;
 }
+
 .hexagon:nth-child(7) span {
   animation-delay: -1.26s;
-  background-color: rgba(255, 214, 0, 0.5);
+  background-color: rgba(134, 136, 119, 0.5);
 }
+
 .hexagon:nth-child(8) {
   transform: rotate(-57.6deg) translate(28px);
-  color: #fff500;
+  color: #858a75;
 }
+
 .hexagon:nth-child(8) span {
   animation-delay: -1.44s;
-  background-color: rgba(255, 245, 0, 0.5);
+  background-color: rgba(133, 138, 117, 0.5);
 }
+
 .hexagon:nth-child(9) {
   transform: rotate(-64.8deg) translate(28px);
-  color: #ebff00;
+  color: #848b74;
 }
+
 .hexagon:nth-child(9) span {
   animation-delay: -1.62s;
-  background-color: rgba(235, 255, 0, 0.5);
+  background-color: rgba(132, 139, 116, 0.5);
 }
+
 .hexagon:nth-child(10) {
   transform: rotate(-72deg) translate(28px);
-  color: #ccff00;
+  color: #828c73;
 }
+
 .hexagon:nth-child(10) span {
   animation-delay: -1.8s;
-  background-color: rgba(204, 255, 0, 0.5);
+  background-color: rgba(130, 140, 115, 0.5);
 }
+
 .hexagon:nth-child(11) {
   transform: rotate(-79.2deg) translate(28px);
-  color: #adff00;
+  color: #808e71;
 }
+
 .hexagon:nth-child(11) span {
   animation-delay: -1.98s;
-  background-color: rgba(173, 255, 0, 0.5);
+  background-color: rgba(128, 142, 113, 0.5);
 }
+
 .hexagon:nth-child(12) {
   transform: rotate(-86.4deg) translate(28px);
-  color: #8fff00;
+  color: #7d8f70;
 }
+
 .hexagon:nth-child(12) span {
   animation-delay: -2.16s;
-  background-color: rgba(143, 255, 0, 0.5);
+  background-color: rgba(125, 143, 112, 0.5);
 }
+
 .hexagon:nth-child(13) {
   transform: rotate(-93.6deg) translate(28px);
-  color: #70ff00;
+  color: #7a906f;
 }
+
 .hexagon:nth-child(13) span {
   animation-delay: -2.34s;
-  background-color: rgba(112, 255, 0, 0.5);
+  background-color: rgba(122, 144, 111, 0.5);
 }
+
 .hexagon:nth-child(14) {
   transform: rotate(-100.8deg) translate(28px);
-  color: #52ff00;
+  color: #76916e;
 }
+
 .hexagon:nth-child(14) span {
   animation-delay: -2.52s;
-  background-color: rgba(82, 255, 0, 0.5);
+  background-color: rgba(118, 145, 110, 0.5);
 }
+
 .hexagon:nth-child(15) {
   transform: rotate(-108deg) translate(28px);
-  color: #33ff00;
+  color: #72936c;
 }
+
 .hexagon:nth-child(15) span {
   animation-delay: -2.7s;
-  background-color: rgba(51, 255, 0, 0.5);
+  background-color: rgba(114, 147, 108, 0.5);
 }
+
 .hexagon:nth-child(16) {
   transform: rotate(-115.2deg) translate(28px);
-  color: #14ff00;
+  color: #6e946b;
 }
+
 .hexagon:nth-child(16) span {
   animation-delay: -2.88s;
-  background-color: rgba(20, 255, 0, 0.5);
+  background-color: rgba(110, 148, 107, 0.5);
 }
+
 .hexagon:nth-child(17) {
   transform: rotate(-122.4deg) translate(28px);
-  color: #00ff0a;
+  color: #6a956b;
 }
+
 .hexagon:nth-child(17) span {
   animation-delay: -3.06s;
-  background-color: rgba(0, 255, 10, 0.5);
+  background-color: rgba(106, 149, 107, 0.5);
 }
+
 .hexagon:nth-child(18) {
   transform: rotate(-129.6deg) translate(28px);
-  color: #00ff29;
+  color: #69966e;
 }
+
 .hexagon:nth-child(18) span {
   animation-delay: -3.24s;
-  background-color: rgba(0, 255, 41, 0.5);
+  background-color: rgba(105, 150, 110, 0.5);
 }
+
 .hexagon:nth-child(19) {
   transform: rotate(-136.8deg) translate(28px);
-  color: #00ff47;
+  color: #679871;
 }
+
 .hexagon:nth-child(19) span {
   animation-delay: -3.42s;
-  background-color: rgba(0, 255, 71, 0.5);
+  background-color: rgba(103, 152, 113, 0.5);
 }
+
 .hexagon:nth-child(20) {
   transform: rotate(-144deg) translate(28px);
-  color: #00ff66;
+  color: #669975;
 }
+
 .hexagon:nth-child(20) span {
   animation-delay: -3.6s;
-  background-color: rgba(0, 255, 102, 0.5);
+  background-color: rgba(102, 153, 117, 0.5);
 }
+
 .hexagon:nth-child(21) {
   transform: rotate(-151.2deg) translate(28px);
-  color: #00ff85;
+  color: #659a7a;
 }
+
 .hexagon:nth-child(21) span {
   animation-delay: -3.78s;
-  background-color: rgba(0, 255, 133, 0.5);
+  background-color: rgba(101, 154, 122, 0.5);
 }
+
 .hexagon:nth-child(22) {
   transform: rotate(-158.4deg) translate(28px);
-  color: #00ffa3;
+  color: #639c7e;
 }
+
 .hexagon:nth-child(22) span {
   animation-delay: -3.96s;
-  background-color: rgba(0, 255, 163, 0.5);
+  background-color: rgba(99, 156, 126, 0.5);
 }
+
 .hexagon:nth-child(23) {
   transform: rotate(-165.6deg) translate(28px);
-  color: #00ffc2;
+  color: #629d84;
 }
+
 .hexagon:nth-child(23) span {
   animation-delay: -4.14s;
-  background-color: rgba(0, 255, 194, 0.5);
+  background-color: rgba(98, 157, 132, 0.5);
 }
+
 .hexagon:nth-child(24) {
   transform: rotate(-172.8deg) translate(28px);
-  color: #00ffe0;
+  color: #619e89;
 }
+
 .hexagon:nth-child(24) span {
   animation-delay: -4.32s;
-  background-color: rgba(0, 255, 224, 0.5);
+  background-color: rgba(97, 158, 137, 0.5);
 }
+
 .hexagon:nth-child(25) {
   transform: rotate(-180deg) translate(28px);
-  color: aqua;
+  color: #609f8f;
 }
+
 .hexagon:nth-child(25) span {
   animation-delay: -4.5s;
-  background-color: rgba(0, 255, 255, 0.5);
+  background-color: rgba(96, 159, 143, 0.5);
 }
+
 .hexagon:nth-child(26) {
   transform: rotate(-187.2deg) translate(28px);
-  color: #00e0ff;
+  color: #5ea196;
 }
+
 .hexagon:nth-child(26) span {
   animation-delay: -4.68s;
-  background-color: rgba(0, 224, 255, 0.5);
+  background-color: rgba(94, 161, 150, 0.5);
 }
+
 .hexagon:nth-child(27) {
   transform: rotate(-194.4deg) translate(28px);
-  color: #00c2ff;
+  color: #5da29d;
 }
+
 .hexagon:nth-child(27) span {
   animation-delay: -4.86s;
-  background-color: rgba(0, 194, 255, 0.5);
+  background-color: rgba(93, 162, 157, 0.5);
 }
+
 .hexagon:nth-child(28) {
   transform: rotate(-201.6deg) translate(28px);
-  color: #00a3ff;
+  color: #5ca2a3;
 }
+
 .hexagon:nth-child(28) span {
   animation-delay: -5.04s;
-  background-color: rgba(0, 163, 255, 0.5);
+  background-color: rgba(92, 162, 163, 0.5);
 }
+
 .hexagon:nth-child(29) {
   transform: rotate(-208.8deg) translate(28px);
-  color: #0085ff;
+  color: #5b9ca4;
 }
+
 .hexagon:nth-child(29) span {
   animation-delay: -5.22s;
-  background-color: rgba(0, 133, 255, 0.5);
+  background-color: rgba(91, 156, 164, 0.5);
 }
+
 .hexagon:nth-child(30) {
   transform: rotate(-216deg) translate(28px);
-  color: #0066ff;
+  color: #5996a6;
 }
+
 .hexagon:nth-child(30) span {
   animation-delay: -5.4s;
-  background-color: rgba(0, 102, 255, 0.5);
+  background-color: rgba(89, 150, 166, 0.5);
 }
+
 .hexagon:nth-child(31) {
   transform: rotate(-223.2deg) translate(28px);
-  color: #0047ff;
+  color: #5890a7;
 }
+
 .hexagon:nth-child(31) span {
   animation-delay: -5.58s;
-  background-color: rgba(0, 71, 255, 0.5);
+  background-color: rgba(88, 144, 167, 0.5);
 }
+
 .hexagon:nth-child(32) {
   transform: rotate(-230.4deg) translate(28px);
-  color: #0029ff;
+  color: #5789a8;
 }
+
 .hexagon:nth-child(32) span {
   animation-delay: -5.76s;
-  background-color: rgba(0, 41, 255, 0.5);
+  background-color: rgba(87, 137, 168, 0.5);
 }
+
 .hexagon:nth-child(33) {
   transform: rotate(-237.6deg) translate(28px);
-  color: #000aff;
+  color: #5582aa;
 }
+
 .hexagon:nth-child(33) span {
   animation-delay: -5.94s;
-  background-color: rgba(0, 10, 255, 0.5);
+  background-color: rgba(85, 130, 170, 0.5);
 }
+
 .hexagon:nth-child(34) {
   transform: rotate(-244.8deg) translate(28px);
-  color: #1400ff;
+  color: #547aab;
 }
+
 .hexagon:nth-child(34) span {
   animation-delay: -6.12s;
-  background-color: rgba(20, 0, 255, 0.5);
+  background-color: rgba(84, 122, 171, 0.5);
 }
+
 .hexagon:nth-child(35) {
   transform: rotate(-252deg) translate(28px);
-  color: #3300ff;
+  color: #5372ac;
 }
+
 .hexagon:nth-child(35) span {
   animation-delay: -6.3s;
-  background-color: rgba(51, 0, 255, 0.5);
+  background-color: rgba(83, 114, 172, 0.5);
 }
+
 .hexagon:nth-child(36) {
   transform: rotate(-259.2deg) translate(28px);
-  color: #5200ff;
+  color: #5269ad;
 }
+
 .hexagon:nth-child(36) span {
   animation-delay: -6.48s;
-  background-color: rgba(82, 0, 255, 0.5);
+  background-color: rgba(82, 105, 173, 0.5);
 }
+
 .hexagon:nth-child(37) {
   transform: rotate(-266.4deg) translate(28px);
-  color: #7000ff;
+  color: #5060af;
 }
+
 .hexagon:nth-child(37) span {
   animation-delay: -6.66s;
-  background-color: rgba(112, 0, 255, 0.5);
+  background-color: rgba(80, 96, 175, 0.5);
 }
+
 .hexagon:nth-child(38) {
   transform: rotate(-273.6deg) translate(28px);
-  color: #8f00ff;
+  color: #4f57b0;
 }
+
 .hexagon:nth-child(38) span {
   animation-delay: -6.84s;
-  background-color: rgba(143, 0, 255, 0.5);
+  background-color: rgba(79, 87, 176, 0.5);
 }
+
 .hexagon:nth-child(39) {
   transform: rotate(-280.8deg) translate(28px);
-  color: #ad00ff;
+  color: #4f4eb1;
 }
+
 .hexagon:nth-child(39) span {
   animation-delay: -7.02s;
-  background-color: rgba(173, 0, 255, 0.5);
+  background-color: rgba(79, 78, 177, 0.5);
 }
+
 .hexagon:nth-child(40) {
   transform: rotate(-288deg) translate(28px);
-  color: #cc00ff;
+  color: #574db3;
 }
+
 .hexagon:nth-child(40) span {
   animation-delay: -7.2s;
-  background-color: rgba(204, 0, 255, 0.5);
+  background-color: rgba(87, 77, 179, 0.5);
 }
+
 .hexagon:nth-child(41) {
   transform: rotate(-295.2deg) translate(28px);
-  color: #eb00ff;
+  color: #5f4bb4;
 }
+
 .hexagon:nth-child(41) span {
   animation-delay: -7.38s;
-  background-color: rgba(235, 0, 255, 0.5);
+  background-color: rgba(95, 75, 180, 0.5);
 }
+
 .hexagon:nth-child(42) {
   transform: rotate(-302.4deg) translate(28px);
-  color: #ff00f5;
+  color: #684ab5;
 }
+
 .hexagon:nth-child(42) span {
   animation-delay: -7.56s;
-  background-color: rgba(255, 0, 245, 0.5);
+  background-color: rgba(104, 74, 181, 0.5);
 }
+
 .hexagon:nth-child(43) {
   transform: rotate(-309.6deg) translate(28px);
-  color: #ff00d6;
+  color: #7149b6;
 }
+
 .hexagon:nth-child(43) span {
   animation-delay: -7.74s;
-  background-color: rgba(255, 0, 214, 0.5);
+  background-color: rgba(113, 73, 182, 0.5);
 }
+
 .hexagon:nth-child(44) {
   transform: rotate(-316.8deg) translate(28px);
-  color: #ff00b8;
+  color: #7b47b8;
 }
+
 .hexagon:nth-child(44) span {
   animation-delay: -7.92s;
-  background-color: rgba(255, 0, 184, 0.5);
+  background-color: rgba(123, 71, 184, 0.5);
 }
+
 .hexagon:nth-child(45) {
   transform: rotate(-324deg) translate(28px);
-  color: #ff0099;
+  color: #8546b9;
 }
+
 .hexagon:nth-child(45) span {
   animation-delay: -8.1s;
-  background-color: rgba(255, 0, 153, 0.5);
+  background-color: rgba(133, 70, 185, 0.5);
 }
+
 .hexagon:nth-child(46) {
   transform: rotate(-331.2deg) translate(28px);
-  color: #ff007a;
+  color: #9045ba;
 }
+
 .hexagon:nth-child(46) span {
   animation-delay: -8.28s;
-  background-color: rgba(255, 0, 122, 0.5);
+  background-color: rgba(144, 69, 186, 0.5);
 }
+
 .hexagon:nth-child(47) {
   transform: rotate(-338.4deg) translate(28px);
-  color: #ff005c;
+  color: #9b44bb;
 }
+
 .hexagon:nth-child(47) span {
   animation-delay: -8.46s;
-  background-color: rgba(255, 0, 92, 0.5);
+  background-color: rgba(155, 68, 187, 0.5);
 }
+
 .hexagon:nth-child(48) {
   transform: rotate(-345.6deg) translate(28px);
-  color: #ff003d;
+  color: #a742bd;
 }
+
 .hexagon:nth-child(48) span {
   animation-delay: -8.64s;
-  background-color: rgba(255, 0, 61, 0.5);
+  background-color: rgba(167, 66, 189, 0.5);
 }
+
 .hexagon:nth-child(49) {
   transform: rotate(-352.8deg) translate(28px);
-  color: #ff001f;
+  color: #b341be;
 }
+
 .hexagon:nth-child(49) span {
   animation-delay: -8.82s;
-  background-color: rgba(255, 0, 31, 0.5);
+  background-color: rgba(179, 65, 190, 0.5);
 }
+
 .hexagon:nth-child(50) {
   transform: rotate(-360deg) translate(28px);
-  color: red;
+  color: #bf40bf;
 }
+
 .hexagon:nth-child(50) span {
   animation-delay: -9s;
-  background-color: rgba(255, 0, 0, 0.5);
+  background-color: rgba(191, 64, 191, 0.5);
 }
 
 @keyframes hexagon {
@@ -576,6 +686,7 @@ body {
     transform: rotate(360deg);
   }
 }
+
 /* ####### END LOGO ############## */
 
 .sectionSplash {
@@ -647,7 +758,9 @@ body {
   align-self: flex-start;
   color: #9d9d9d;
 }
-.attributionLink:link, .attributionLink:visited {
+
+.attributionLink:link,
+.attributionLink:visited {
   color: #9d9d9d;
 }
 

@@ -85,7 +85,10 @@ body {
   background-color: #bcc0c1;
 }
 
-.btnGhost:hover,
+.btnGhost:hover {
+  color: #172726;
+}
+
 .btnGhost:active {
   color: #bcc0c1;
 }
@@ -1122,6 +1125,7 @@ body {
     padding: 0.5rem 0.7rem;
     font-size: 1rem;
   }
+
   .contactForm .contactButton {
     font-size: 1rem;
     min-width: 10rem;

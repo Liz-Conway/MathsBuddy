@@ -996,6 +996,7 @@ body {
   width: 100%;
 }
 
+/* ################ RESPONSIVE MEDIA QUERIES ################## */
 /* For tablets in landscape orientation */
 @media only screen and (max-width: 950px) {
   .headingPrimaryTitle {
@@ -1006,6 +1007,14 @@ body {
 
   .headingPrimarySubtitle {
     transform: translateX(15%);
+  }
+
+  .inspirationalQuote {
+    padding-top: 1rem;
+  }
+
+  .inspirationalQuote p {
+    margin-left: 2rem;
   }
 
 }
@@ -1042,6 +1051,28 @@ body {
 
   .footer {
     font-size: 90%;
+  }
+
+  .inspirationalQuote {
+    order: 1;
+    flex: 0 0 100%;
+  }
+
+  .mathsTopics {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .mathsTopicsPaper {
+    height: 40vh;
+  }
+
+  .inspirationalQuote {
+    background-image: url("../images/blackboard-small.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 0 0 100%;
+    min-height: 40rem;
   }
 }
 
@@ -1081,5 +1112,14 @@ body {
 
   .headerMenu li:first-child {
     margin-top: 0.5rem;
+  }
+
+  .topicsHeading {
+    font-size: 1.5rem;
+  }
+
+  .btnCTA {
+    padding: 0.5rem 0.7rem;
+    font-size: 1rem;
   }
 }

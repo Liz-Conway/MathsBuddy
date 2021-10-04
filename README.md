@@ -1,4 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![MathsBuddy logo](assets/images/logo.png)
 
 # MathsBuddy
 MathsBuddy is a website that provides online learning for maths to students who wish to take the Junior Cycle exam.

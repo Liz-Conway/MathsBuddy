@@ -49,9 +49,9 @@ body {
   padding: 1.5rem 4rem;
   border-radius: 10rem;
   font-size: 1.6rem;
-  background-color: #b7b6b5;
-  color: #172726;
-  border: 3px solid #172726;
+  background-color: #ddd7d1;
+  color: #053937;
+  border: 3px solid #053937;
   text-align: center;
   transition: all 0.2s;
 }
@@ -65,7 +65,7 @@ body {
 
 .btn:active {
   color: #fffe87;
-  background-color: #172726;
+  background-color: #053937;
   /* Make the button appear to be pressed => 3D effect */
   transform: translateY(-0.1rem);
   /* Box Shadow X Y Blur Colour*/
@@ -86,7 +86,7 @@ body {
 }
 
 .btnGhost:hover {
-  color: #172726;
+  color: #053937;
 }
 
 .btnGhost:active {
@@ -107,7 +107,7 @@ body {
 .header {
   display: flex;
   flex-direction: row;
-  background-color: #b7b6b5;
+  background-color: #ddd7d1;
   position: relative;
   justify-content: flex-end;
 }
@@ -132,6 +132,7 @@ body {
 
 .headerMenu a:hover {
   background-color: #848384;
+  color: #fffe87;
 }
 
 .headerMenuActive {
@@ -710,7 +711,7 @@ body {
 }
 
 .headingPrimary {
-  color: #172726;
+  color: #053937;
   text-transform: uppercase;
   margin-bottom: 1rem;
   flex-grow: 1;
@@ -803,7 +804,7 @@ body {
 }
 
 .mathsTopicsPaper {
-  background-color: #b7b6b5;
+  background-color: #ddd7d1;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -872,17 +873,17 @@ body {
   flex-direction: row;
   justify-content: space-between;
   padding: 1.1rem;
-  border-bottom: 1px solid #172726;
+  border-bottom: 1px solid #053937;
   margin-bottom: 1rem;
 }
 
 .breadcrumbLink:link,
 .breadcrumbLink:visited {
-  color: #172726;
+  color: #053937;
 }
 
 .breadcrumbLink:hover {
-  border-bottom: 1px solid #172726;
+  border-bottom: 1px solid #053937;
   background-color: #848384;
 }
 
@@ -907,7 +908,7 @@ body {
 }
 
 .contactForm {
-  background-color: #b7b6b5;
+  background-color: #ddd7d1;
   font-size: 2.5rem;
   padding: 2rem;
 }
@@ -945,7 +946,7 @@ body {
 }
 
 .footer {
-  background-color: #172726;
+  background-color: #053937;
   color: #bcc0c1;
   display: flex;
   justify-content: space-around;
@@ -967,7 +968,7 @@ body {
   width: 30rem;
   margin-right: 1.5rem;
   margin-bottom: 3rem;
-  box-shadow: 0 1rem 3rem #172726;
+  box-shadow: 0 1rem 3rem #053937;
   border-radius: 1rem;
   /* Photo is covering the border radius of the .aboutBox*/
   overflow: hidden;

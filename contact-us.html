@@ -13,7 +13,7 @@
 	<header class="header">
 		<div class="headerLogoBox">
 			<a href="index.html">
-            	<span class="utilHide">Link to home page</span>
+				<span class="utilHide">Link to home page</span>
 				<!-- Logo from :  https://codepen.io/Tsankashvili/pen/zmPXGX -->
 				<div class="hexagon">
 					<span></span>
@@ -193,15 +193,15 @@
 				<input type="text" id="contactName" name="contactName" placeholder="My name" required>
 			</div>
 			<div class="contactInterest">
-				<label for="contactType">I am a </label>
-				<select id="contactType" name="contactType">
+				<label>I am a </label>
+				<select id="contactType" name="contactType" aria-label="enquirer type">
 					<option value="student">Student</option>
 					<option value="parent">Parent</option>
 					<option value="teacher">Teacher</option>
 					<option value="other">Other</option>
 				</select>
-				<label for="contactTopic"> and I am interested in </label>
-				<select id="contactTopic" name="contactTopic">
+				<label> and I am interested in </label>
+				<select id="contactTopic" name="contactTopic" aria-label="topic of interest">
 					<option value="number-types">Number Types</option>
 					<option value="algebra">Algebra</option>
 					<option value="coordinate-geometry">Co-ordinate Geometry</option>
@@ -210,11 +210,13 @@
 				</select>
 			</div>
 			<div class="contactQuestion">
-				<label class="contactEmail">I'd like to ask a question, you can contact me at </label>
-				<input type="email" id="contactEmail" name="contactEmail" placeholder="My email address" required>
+				<label>I'd like to ask a question, you can contact me at </label>
+				<input type="email" id="contactEmail" name="contactEmail" placeholder="My email address"
+					aria-label="My email address" required>
 			</div>
 			<div class="contactQuery">
-				<textarea placeholder="Type query here" name="contactQuery" required></textarea>
+				<textarea placeholder="Type query here" name="contactQuery" aria-label="Type query here"
+					required></textarea>
 			</div>
 			<div class="contactButtons">
 				<input type="submit" id="contactSubmit" class="btn btnCTA contactButton">

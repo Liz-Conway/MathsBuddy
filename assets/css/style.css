@@ -43,6 +43,10 @@ body {
   margin-bottom: 4rem;
 }
 
+.utilHide {
+  display: none;
+}
+
 .btn {
   text-transform: uppercase;
   display: inline-block;

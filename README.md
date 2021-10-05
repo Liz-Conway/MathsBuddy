@@ -85,7 +85,7 @@ Test Script 1
 - Actual result
 #### Documentation  
 - README.md :  Comprehensive overview of the MathsBuddy website detailing how it works, what its features are, the technologies involved and all the design decisions that were made in creating this learning resource.
-- [Vision doc](Documentation/MathsBuddy-Vision.docx) :  Business needs and feature list.
+- [Vision doc](documentation/MathsBuddy-Vision.docx) :  Business needs and feature list.
 - WireFrames :  Wireframes for each different layout.
 - Site map :  Basic site map with prioritisation and categorisation of each page.
 

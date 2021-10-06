@@ -13,9 +13,12 @@
 <body>
 	<header class="header">
 		<div class="headerLogoBox">
+			<!-- Clicking on the logo will bring you back to the home page -->
 			<a href="index.html">
+            	<!-- This span is for accessibility - text is hidden -->
             	<span class="utilHide">Link to home page</span>
 				<!-- Logo from :  https://codepen.io/Tsankashvili/pen/zmPXGX -->
+				<!-- Each of these divs is a point on the animated logo -->
 				<div class="hexagon">
 					<span></span>
 				</div>
@@ -171,22 +174,26 @@
 		<nav>
 			<ul class="headerMenu">
 				<li>
-					<a href="index.html">Home</a>
+					<a href="index.html">Home</a>	<!-- To home page -->
 				</li>
 				<li>
-					<a href="maths.html" class="headerMenuActive">Maths</a>
+					<a href="maths.html" class="headerMenuActive">Maths</a>	<!-- To Maths page -->
 				</li>
 				<li>
-					<a href="about-us.html">About us</a>
+					<a href="about-us.html">About</a>	<!-- To About page -->
 				</li>
 				<li>
-					<a href="contact-us.html">Contact us</a>
+					<a href="contact-us.html">Contact us</a>	<!-- To Contact Us page -->
 				</li>
 			</ul>
 		</nav>
 	</header>
 
+		<!-- Secondary breadcrumb navigation 
+	Allows student to go back to Maths page,
+	 or to Algebra topic page or Trigonometry topic page -->
 	<nav class="breadcrumbNavigation">
+		<!-- Previous topic -->
 		<a href="algebra.html" class="breadcrumbLink breadcrumbPrev">&larr; Algebra</a>
 		<div class="breadcrumb">
 			<a href="maths.html" class="breadcrumbLink">
@@ -194,6 +201,7 @@
 			</a>
 			Co-ordinate Geometry
 		</div>
+		<!-- Next topic -->
 		<a href="trigonometry.html" class="breadcrumbLink breadcrumbNext">Trigonometry &rarr;</a>
 	</nav>
 	<main>
@@ -201,7 +209,12 @@
 			<h1 class="headingPrimary">Co&#8209;ordinate Geometry videos</h1>
 			<h2 class="headingSecondary">Paper 2</h2>
 		</div>
+		<!-- List of videos for this topic -->
+		<!-- All videos served from MathsBuddy website are in 3 different formats:
+		*.mp4, *.webm, *.ogg -->
+		<!-- All videos served from external websites are enclosed in iframes -->
 		<section class="videos">
+			<!-- Video 1 -->
 			<div class="videosVid">
 				<h3 class="videosTitle">Introduction</h3>
 				<iframe class="videosContent" src="https://www.youtube.com/embed/Byw72mbDBT8"
@@ -210,6 +223,7 @@
 					allowfullscreen></iframe>
 				<p class="videosAttribution">Youtube FuseSchool</p>
 			</div>
+			<!-- Video 2 -->
 			<div class="videosVid">
 				<h3 class="videosTitle">Equation of a line</h3>
 				<iframe class="videosContent" src="https://www.youtube.com/embed/MJKPASvp0qY" title="Equation of a line"
@@ -218,6 +232,7 @@
 					allowfullscreen></iframe>
 				<p class="videosAttribution">Youtube Corbettmaths</p>
 			</div>
+			<!-- Video 3 -->
 			<div class="videosVid">
 				<h3 class="videosTitle">Review</h3>
 				<iframe class="videosContent" src="https://www.youtube.com/embed/9qmW-M2zr6Q"
@@ -228,10 +243,12 @@
 			</div>
 
 		</section>
+		Button to show the Co-ordinate Geometry exam questions 
 		<div class="examButton utilMarginTopSmall utilMarginBottomSmall">
 			<a href="coordinate-geometry-exam-questions.html" class="btn btnCTA">Show Exam Questions</a>
 		</div>
 	</main>
+	<!-- Footer at bottom of page -->
 	<footer class="footer">
 		<div class="footerCopyright">
 			&copy; Liz 2021

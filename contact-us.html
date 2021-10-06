@@ -13,9 +13,12 @@
 <body>
 	<header class="header">
 		<div class="headerLogoBox">
+			<!-- Clicking on the logo will bring you back to the home page -->
 			<a href="index.html">
-				<span class="utilHide">Link to home page</span>
+            	<!-- This span is for accessibility - text is hidden -->
+            	<span class="utilHide">Link to home page</span>
 				<!-- Logo from :  https://codepen.io/Tsankashvili/pen/zmPXGX -->
+				<!-- Each of these divs is a point on the animated logo -->
 				<div class="hexagon">
 					<span></span>
 				</div>
@@ -171,29 +174,33 @@
 		<nav>
 			<ul class="headerMenu">
 				<li>
-					<a href="index.html">Home</a>
+					<a href="index.html">Home</a>	<!-- To home page -->
 				</li>
 				<li>
-					<a href="maths.html">Maths</a>
+					<a href="maths.html">Maths</a>	<!-- To Maths page -->
 				</li>
 				<li>
-					<a href="about-us.html">About us</a>
+					<a href="about-us.html">About</a>	<!-- To About page -->
 				</li>
 				<li>
-					<a href="#" class="headerMenuActive">Contact us</a>
+					<a href="#" class="headerMenuActive">Contact us</a>	<!-- To this page -->
 				</li>
 			</ul>
 		</nav>
 	</header>
 
 	<main>
+		<!-- Heading -->
 		<h1 class="headingPrimary utilCentreText">I have a maths query</h1>
+		<!-- Form to collect enquirer's information -->
 		<form action="https://formdump.codeinstitute.net/" method="post" class="contactForm">
+			<!-- Enquirer's name -->
 			<div class="contactMyName">
 				<label for="contactName">My name is</label>
 				<input type="text" id="contactName" name="contactName" placeholder="My name" required>
 			</div>
 			<div class="contactInterest">
+				<!-- What class of person is the enquirer? -->
 				<label>I am a </label>
 				<select id="contactType" name="contactType" aria-label="enquirer type">
 					<option value="student">Student</option>
@@ -201,6 +208,7 @@
 					<option value="teacher">Teacher</option>
 					<option value="other">Other</option>
 				</select>
+				<!-- Topic the enquirer is interested in -->
 				<label> and I am interested in </label>
 				<select id="contactTopic" name="contactTopic" aria-label="topic of interest">
 					<option value="number-types">Number Types</option>
@@ -211,16 +219,20 @@
 				</select>
 			</div>
 			<div class="contactQuestion">
+				<!-- Enquirer's email address -->
 				<label>I'd like to ask a question, you can contact me at </label>
 				<input type="email" id="contactEmail" name="contactEmail" placeholder="My email address"
 					aria-label="My email address" required>
 			</div>
 			<div class="contactQuery">
+				<!-- What is the query? -->
 				<textarea placeholder="Type query here" name="contactQuery" aria-label="Type query here"
 					required></textarea>
 			</div>
 			<div class="contactButtons">
+				<!-- Button to submit the query -->
 				<input type="submit" id="contactSubmit" class="btn btnCTA contactButton">
+				<!-- Button to clear the input fields -->
 				<input type="reset" id="contactReset" class="btn btnGhost contactButton" value="Clear Form">
 			</div>
 		</form>

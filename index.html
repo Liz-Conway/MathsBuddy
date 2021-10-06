@@ -13,9 +13,12 @@
 <body>
 	<header class="header">
 		<div class="headerLogoBox">
+			<!-- Clicking on the logo will bring you back to the home page -->
 			<a href="index.html">
+            	<!-- This span is for accessibility - text is hidden -->
             	<span class="utilHide">Link to home page</span>
 				<!-- Logo from :  https://codepen.io/Tsankashvili/pen/zmPXGX -->
+				<!-- Each of these divs is a point on the animated logo -->
 				<div class="hexagon">
 					<span></span>
 				</div>
@@ -172,16 +175,16 @@
 		<nav>
 			<ul class="headerMenu">
 				<li>
-					<a href="#" class="headerMenuActive">Home</a>
+					<a href="#" class="headerMenuActive">Home</a>	<!-- To this page -->
 				</li>
 				<li>
-					<a href="maths.html">Maths</a>
+					<a href="maths.html">Maths</a>	<!-- To Maths page -->
 				</li>
 				<li>
-					<a href="about-us.html">About us</a>
+					<a href="about-us.html">About</a>	<!-- To About page -->
 				</li>
 				<li>
-					<a href="contact-us.html">Contact us</a>
+					<a href="contact-us.html">Contact us</a>	<!-- To Contact Us page -->
 				</li>
 			</ul>
 		</nav>
@@ -189,6 +192,7 @@
 
 	<main>
 		<section class="sectionSplash utilMarginTopSmall">
+			<!-- Video plays in background -->
 			<div class="bgVideo">
 				<video class="bgVideoContent" autoplay muted loop>
 					<source src="assets/video/formula.mp4" type="video/mp4">
@@ -196,23 +200,28 @@
 					<source src="assets/video/formula.webm" type="video/webm">
 					<!-- Converted with:  https://www.onlineconverter.com/video-to-ogg -->
 					<source src="assets/video/formula.ogg" type="video/ogg">
+					<!-- Text in case the browser does not support showing video -->
 					Your browser is not supported!
 				</video>
 			</div>
 
+			<!-- Heading displays over the background video -->
 			<h1 class="headingPrimary">
 				<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr -->
 				<span class="headingPrimaryTitle">Maths<wbr>Buddy</span>
 				<span class="headingPrimarySubtitle">Your mate 4 maths</span>
 			</h1>
+			<!-- Button to go to maths page - show over background video -->
 			<a href="maths.html" class="btn btnCTA utilMarginBottomMedium">
 				Discover Maths
 			</a>
+			<!-- Royalty free video needs this attribution -->
 			<div class="attributionText">
 				Video from: <a href="http://vidsplay.com" class="attributionLink">Vidsplay</a>
 			</div>
 		</section>
 	</main>
+	<!-- Footer at bottom of page -->
 	<footer class="footer">
 		<div class="footerCopyright">
 			&copy; Liz 2021

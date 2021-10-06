@@ -13,9 +13,12 @@
 <body>
 	<header class="header">
 		<div class="headerLogoBox">
+			<!-- Clicking on the logo will bring you back to the home page -->
 			<a href="index.html">
+            	<!-- This span is for accessibility - text is hidden -->
             	<span class="utilHide">Link to home page</span>
 				<!-- Logo from :  https://codepen.io/Tsankashvili/pen/zmPXGX -->
+				<!-- Each of these divs is a point on the animated logo -->
 				<div class="hexagon">
 					<span></span>
 				</div>
@@ -171,45 +174,52 @@
 		<nav>
 			<ul class="headerMenu">
 				<li>
-					<a href="index.html">Home</a>
+					<a href="index.html">Home</a>	<!-- To home page -->
 				</li>
 				<li>
-					<a href="#" class="headerMenuActive">Maths</a>
+					<a href="#" class="headerMenuActive">Maths</a>	<!-- To this page -->
 				</li>
 				<li>
-					<a href="about-us.html">About us</a>
+					<a href="about-us.html">About</a>	<!-- To About page -->
 				</li>
 				<li>
-					<a href="contact-us.html">Contact us</a>
+					<a href="contact-us.html">Contact us</a>	<!-- To Contact Us page -->
 				</li>
 			</ul>
 		</nav>
 	</header>
 
 	<main class="maths">
+		<!-- Heading at top -->
 		<div class="utilCentreText utilMarginBottomSmall utilMarginTopSmall">
 			<h1 class="headingPrimary">Maths - Live Online classes</h1>
 			<h2 class="headingSecondary">1:1 or Group sessions</h2>
 		</div>
 		<section class="mathsTopics">
+			<!-- Topics for Paper 1 - On left hand side -->
 			<div class="mathsTopicsPaper">
 				<h3 class="topicsHeading">Paper 1 Topics</h3>
+				<!-- Links to paper 1 topics -->
 				<a href="number-types.html" class="btn btnCTA btnCTASmall">Number Types</a>
 				<a href="algebra.html" class="btn btnCTA btnCTASmall">Algebra</a>
 			</div>
+			<!-- Inspirational quote - Between topics list on larger screen, below them on smaller devices -->
 			<div class="inspirationalQuote">
 				<p><span class="quality">Ability</span> is what you are capable of doing.</p>
 				<p><span class="quality">Motivation</span> determines what you do.</p>
 				<p><span class="quality">Attitude</span> determines how well you do it.</p>
 			</div>
+			<!-- Topics for Paper 2 - On right hand side -->
 			<div class="mathsTopicsPaper">
 				<h3 class="topicsHeading">Paper 2 Topics</h3>
+				<!-- Links to Paper 2 topics -->
 				<a href="coordinate-geometry.html" class="btn btnCTA btnCTASmall">Co-ordinate Geometry</a>
 				<a href="trigonometry.html" class="btn btnCTA btnCTASmall">Trigonometry</a>
 			</div>
 
 		</section>
 	</main>
+	<!-- Footer at bottom of page -->
 	<footer class="footer">
 		<div class="footerCopyright">
 			&copy; Liz 2021

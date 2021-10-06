@@ -13,9 +13,12 @@
 <body>
 	<header class="header">
 		<div class="headerLogoBox">
+			<!-- Clicking on the logo will bring you back to the home page -->
 			<a href="index.html">
+            	<!-- This span is for accessibility - text is hidden -->
             	<span class="utilHide">Link to home page</span>
 				<!-- Logo from :  https://codepen.io/Tsankashvili/pen/zmPXGX -->
+				<!-- Each of these divs is a point on the animated logo -->
 				<div class="hexagon">
 					<span></span>
 				</div>
@@ -171,22 +174,26 @@
 		<nav>
 			<ul class="headerMenu">
 				<li>
-					<a href="index.html">Home</a>
+					<a href="index.html">Home</a>	<!-- To home page -->
 				</li>
 				<li>
-					<a href="maths.html" class="headerMenuActive">Maths</a>
+					<a href="maths.html" class="headerMenuActive">Maths</a>	<!-- To Maths page -->
 				</li>
 				<li>
-					<a href="about-us.html">About us</a>
+					<a href="about-us.html">About</a>	<!-- To About page -->
 				</li>
 				<li>
-					<a href="contact-us.html">Contact us</a>
+					<a href="contact-us.html">Contact us</a>	<!-- To Contact Us page -->
 				</li>
 			</ul>
 		</nav>
 	</header>
 
+	<!-- Secondary breadcrumb navigation 
+	Allows student to go back to Maths page, back to Algebra topic page,
+	 or to Number Types exam questions page or Co-ordinate Geometry exam questions page -->
 	<nav class="breadcrumbNavigation">
+		<!-- Previous exam questions -->
 		<a href="number-types-exam-questions.html" class="breadcrumbLink breadcrumbPrev">&larr; Number Types</a>
 		<div class="breadcrumb">
 			<a href="maths.html" class="breadcrumbLink">
@@ -197,10 +204,12 @@
 			</a>
 			<div>Exam Questions</div>
 		</div>
+		<!-- Next exam questions -->
 		<a href="coordinate-geometry-exam-questions.html" class="breadcrumbLink breadcrumbNext">Co-ordinate Geometry
 			&rarr;</a>
 	</nav>
 	<main>
+		<!-- Picture of past exam papers -->
 		<section class="examQuestions">
 			<!-- https://stackoverflow.com/questions/12899691/use-of-picture-inside-figure-element-in-html5 -->
 			<figure class="question">
@@ -218,6 +227,7 @@
 			</figure>
 		</section>
 	</main>
+	<!-- Footer at bottom of page -->
 	<footer class="footer">
 		<div class="footerCopyright">
 			&copy; Liz 2021

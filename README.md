@@ -77,6 +77,7 @@ MathsBuddy gives access to tutorial videos and past exam questions, broken down 
 - Non-image/video treatment
 
 ####Wireframes
+
 **Home Page**
 ![Home page](documentation/wireframes/wireframe-main-page.png)
 **Maths Page**

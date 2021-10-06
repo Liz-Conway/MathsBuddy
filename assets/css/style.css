@@ -1006,6 +1006,20 @@ body {
   width: 100%;
 }
 
+.errorSection {
+  background-color: #848384;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error404 {
+  font-size: 10rem;
+  font-weight: 100;
+  color: #fffe87;
+  margin: 3rem auto;
+}
+
 /* ################ RESPONSIVE MEDIA QUERIES ################## */
 /* For tablets in landscape orientation */
 @media only screen and (max-width: 950px) {

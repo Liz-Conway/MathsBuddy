@@ -34,6 +34,31 @@ MathsBuddy gives access to tutorial videos and past exam questions, broken down 
 - Use a collapsible navbar in mobile versions of the site.
 - Add more maths topics!
 
+## UX
+
+### Personas
+
+**Emily Reilly**
+
+![Emily](documentation/ux/emily-persona.png)
+
+![Daniel](documentation/ux/daniel-reily-persona.png)
+
+### Student Journey Maps
+
+![Emily Journey Map](documentation/ux/emily-student-journey-map.png)
+
+![Daniel Journey Map](documentation/ux/daniel-student-journey-map.png)
+
+### User Flow
+
+![User Flow](documentation/ux/mathsbuddy-userflow.png)
+
+
+### Site Map
+
+![MathsBuddy Site Map](documentation/ux/mathsbuddy-sitemap.png)
+
 
 ## Design Decisions
 ### Code Quality

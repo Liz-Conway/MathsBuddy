@@ -38,25 +38,30 @@ MathsBuddy gives access to tutorial videos and past exam questions, broken down 
 
 ### Personas
 
-**Emily Reilly**
+**External link to [Emily's Persona](https://app.flowmapp.com/share/18b55dee67b0693f1bbb1ea1f87e5526/personas/45989/)**
 
 ![Emily](documentation/ux/emily-persona.png)
 
+**External link to [Daniel's Persona](https://app.flowmapp.com/share/18b55dee67b0693f1bbb1ea1f87e5526/personas/45996/)**
 ![Daniel](documentation/ux/daniel-reily-persona.png)
 
 ### Student Journey Maps
 
+**External link to [Emily's Journey Map](https://app.flowmapp.com/share/18b55dee67b0693f1bbb1ea1f87e5526/cjm/26580/)**
 ![Emily Journey Map](documentation/ux/emily-student-journey-map.png)
 
+**External link to [Daniel's Journey Map](https://app.flowmapp.com/share/18b55dee67b0693f1bbb1ea1f87e5526/cjm/26876/)**
 ![Daniel Journey Map](documentation/ux/daniel-student-journey-map.png)
 
 ### User Flow
 
+**External link to [User Flow](https://app.flowmapp.com/share/18b55dee67b0693f1bbb1ea1f87e5526/userflow/164243/)**
 ![User Flow](documentation/ux/mathsbuddy-userflow.png)
 
 
 ### Site Map
 
+**External link to [Site Map](https://app.flowmapp.com/share/18b55dee67b0693f1bbb1ea1f87e5526/sitemap/)**
 ![MathsBuddy Site Map](documentation/ux/mathsbuddy-sitemap.png)
 
 

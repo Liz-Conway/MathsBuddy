@@ -924,7 +924,7 @@ body {
 .contactForm input,
 .contactForm select,
 .contactForm textArea {
-  font-family: Roboto Slab;
+  font-family: "Roboto Slab";
   font-size: 2.5rem;
   font-weight: 400;
 }

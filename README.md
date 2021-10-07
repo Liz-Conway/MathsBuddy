@@ -116,6 +116,68 @@ Test Script 1
 2. Step 2
 - Actual result
 
+#### Known Bugs
+Number types exam questions says 16 questions but it only has 4.
+Image on Trigonometry topic page (5.1KB) does not have a smaller image to display on smaller screens
+
+#### Validation
+CSS was validated using [W3C CSS validator](https://jigsaw.w3.org/css-validator/validator)
+![CSS Validated](documentation/validation/css-validator.png)
+
+HTML was validated on all pages using [W3C HTML validator](https://validator.w3.org/)
+
+Home Page
+
+![Home page validated](documentation/validation/html-validator-home.png)
+
+Maths Page
+
+![Maths page validated](documentation/validation/html-validator-maths.png)
+
+About Page
+
+![About page validated](documentation/validation/html-validator-about.png)
+
+Contact Us Page
+
+![Contact page validated](documentation/validation/html-validator-contact-us.png)
+
+Number Types video page
+
+![Number Types page validated](documentation/validation/html-validator-number-types.png)
+
+Algebra video Page
+
+![Algebra page validated](documentation/validation/html-validator-algebra.png)
+
+Co-ordinate Geometry video Page
+
+![Co-ordinate Geometry page validated](documentation/validation/html-validator-coordinate-geometry.png)
+
+Trigonometry video Page
+
+![Trigonometry page validated](documentation/validation/html-validator-trigonometry.png)
+
+Number Types exam questions Page
+
+![Number Types exam questions page validated](documentation/validation/html-validator-number-types-exam-q.png)
+
+Algebra exam questions Page
+
+![Algebra exam questions page validated](documentation/validation/html-validator-algebra-exam-q.png)
+
+Co-ordinate Geometry exam questions Page
+
+![Co-ordinate Geometry exam questions page validated](documentation/validation/html-validator-coordinate-geometry-exam-q.png)
+
+Trigonometry exam questions Page
+
+![Trigonometry exam questions page validated](documentation/validation/html-validator-trigonometry-exam-q.png)
+
+404 Error page
+
+![404 error page validated](documentation/validation/html-validator-404.png)
+
 #### Documentation  
 - README.md :  Comprehensive overview of the MathsBuddy website detailing how it works, what its features are, the technologies involved and all the design decisions that were made in creating this learning resource.
 - [Vision doc](documentation/MathsBuddy-Vision.docx) :  Business needs and feature list.

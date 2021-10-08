@@ -68,6 +68,46 @@ MathsBuddy gives access to tutorial videos and past exam questions, broken down 
 **External link to [Site Map](https://app.flowmapp.com/share/18b55dee67b0693f1bbb1ea1f87e5526/sitemap/)**
 ![MathsBuddy Site Map](documentation/ux/mathsbuddy-sitemap.png)
 
+### Accessibility
+
+The MathsBuddy website was checked to ensure accessibility using the [WAVE](https://wave.webaim.org/) web accessibility evaluation tool.
+
+**Home Page**
+![Home page](documentation/accessibility/home-accessibility.png)
+
+**Maths Page**
+![Maths page](documentation/accessibility/maths-accessibility.png)
+
+**About Page**
+![About page](documentation/accessibility/about-accessibility.png)
+
+**Contact Us Page**
+![Contact Us page](documentation/accessibility/contact-us-accessibility.png)
+
+**Number Types Page**
+![Number Types page](documentation/accessibility/number-types-accessibility.png)
+
+**Co-ordinate Geometry Page**
+![Co-ordinate Geometry page](documentation/accessibility/coordinate-geometry-accessibility.png)
+
+**Algebra Page**
+![Algebra page](documentation/accessibility/algebra-accessibility.png)
+
+**Trigonometry Page**
+![Trigonometry page](documentation/accessibility/trigonometry-accessibility.png)
+
+**Number Types Exam Questions Page**
+![Number Types Exam question page](documentation/accessibility/number-types-exam-questions-accessibility.png)
+
+**Co-ordinate Geometry Exam Questions Page**
+![Co-ordinate Geometry Exam question page](documentation/accessibility/coordinate-geometry-exam-questions-accessibility.png)
+
+**Algebra Exam Questions Page**
+![Algebra Exam question page](documentation/accessibility/algebra-exam-questions-accessibility.png)
+
+**Trigonometry Exam Questions Page**
+![Trigonometry Exam question page](documentation/accessibility/trigonometry-exam-questions-accessibility.png)
+
 
 ## Design Decisions
 ### Code Quality

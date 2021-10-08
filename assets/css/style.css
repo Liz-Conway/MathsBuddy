@@ -830,6 +830,7 @@ body {
   justify-content: space-around;
   align-items: center;
   font-size: 1.8rem;
+  background-color: #053936;
   background-image: url("../images/blackboard.jpg");
   background-size: cover;
   padding-top: 3rem;

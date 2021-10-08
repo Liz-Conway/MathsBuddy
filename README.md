@@ -16,6 +16,10 @@ MathsBuddy is a website which provides resources for students who will be taking
  
 MathsBuddy gives access to tutorial videos and past exam questions, broken down by topic, for the Junior Cycle maths exam.
 
+## Screen Mockups
+
+
+
 ## Features
 
 ### Existing Features
@@ -106,7 +110,7 @@ MathsBuddy gives access to tutorial videos and past exam questions, broken down 
     - Videos served from external sites are displayed within an iframe.    
 - Non-image/video treatment
 
-####Wireframes
+#### Wireframes
 
 **Home Page**
 ![Home page](documentation/wireframes/wireframe-main-page.png)
@@ -120,8 +124,6 @@ MathsBuddy gives access to tutorial videos and past exam questions, broken down 
 ![Topic page](documentation/wireframes/wireframe-maths-number-types.png)
 **Topic Exam Questions Page**
 ![Exam question page](documentation/wireframes/wireframe-exam-questions-number-types.png)
-
-####Screen Mockups
 
 ### Software Development Process
 #### Version Control 
@@ -138,13 +140,42 @@ MathsBuddy gives access to tutorial videos and past exam questions, broken down 
 
 #### Testing 
 All testing on the MathsBuddy website will be done manually.
+
+The MathsBuddy website will be tested on the following browsers:
+ - Firefox
+ - Chrome
+
+The MathsBuddy website will be tested on the following devices:
+ - Laptop = HP EliteBook 8570p
+ - Tablet (Landscape orientation) = Huawei MediaPad M5 1.1"
+ - Tablet (Landscape orientation) = Huawei MediaPad M5 10.1"
+ - Phone = Samsung Galaxy A10
+ 
 ##### **Test scripts**
-Test Script 1
-- Expected result
-- Steps
-1. Step 1
-2. Step 2
-- Actual result
+
+**About page - Laptop - Firefox**
+![About-Laptop-Firefox](documentation/tests/about-laptop-firefox.png)
+
+**About page - Laptop - Chrome**
+![About-Laptop-Chrome](documentation/tests/about-laptop-chrome.png)
+
+**About page - Tablet Landscape - Firefox**
+![About-Tablet Landscape-Firefox](documentation/tests/about-tablet-landscape-firefox.png)
+
+**About page - Tablet Landscape - Chrome**
+![About-Tablet Landscape-Chrome](documentation/tests/about-tablet-landscape-chrome.png)
+
+**About page - Tablet Portrait - Firefox**
+![About-Tablet Portrait-Firefox](documentation/tests/about-tablet-portrait-firefox.png)
+
+**About page - Tablet Portrait - Chrome**
+![About-Tablet Portrait-Chrome](documentation/tests/about-tablet-portrait-chrome.png)
+
+**About page - Phone - Firefox**
+![About-Phone-Firefox](documentation/tests/about-phone-firefox.png)
+
+**About page - Phone - Chrome**
+![About-Phone-Chrome](documentation/tests/about-phone-chrome.png)
 
 #### Known Bugs
 Number types exam questions says 16 questions but it only has 4.

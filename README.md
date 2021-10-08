@@ -153,6 +153,62 @@ The MathsBuddy website will be tested on the following devices:
  
 ##### **Test scripts**
 
+**Home page - Laptop - Firefox**
+![Home-Laptop-Firefox](documentation/tests/home-laptop-firefox.png)
+
+**Home page - Laptop - Chrome**
+![Home-Laptop-Chrome](documentation/tests/home-laptop-chrome.png)
+
+**Home page - Tablet Landscape - Firefox**
+![Home-Tablet Landscape-Firefox](documentation/tests/home-tablet-landscape-firefox.png)
+
+**Home page - Tablet Landscape - Chrome**
+![Home-Tablet Landscape-Chrome](documentation/tests/home-tablet-landscape-chrome.png)
+
+**Home page - Tablet Portrait - Firefox**
+![Home-Tablet Portrait-Firefox](documentation/tests/home-tablet-portrait-firefox.png)
+
+**Home page - Tablet Portrait - Chrome**
+![Home-Tablet Portrait-Chrome](documentation/tests/home-tablet-portrait-chrome.png)
+
+**Home page - Phone - Firefox**
+![Home-Phone-Firefox](documentation/tests/home-phone-firefox.png)
+
+**Home page - Phone - Chrome**
+![Home-Phone-Chrome](documentation/tests/home-phone-chrome.png)
+
+**Maths page - Laptop - Firefox**
+
+![Maths-Laptop-Firefox](documentation/tests/maths-laptop-firefox.png)
+
+**Maths page - Laptop - Chrome**
+
+![Maths-Laptop-Chrome](documentation/tests/maths-laptop-chrome.png)
+
+**Maths page - Tablet Landscape - Firefox**
+
+![Maths-Tablet Landscape-Firefox](documentation/tests/maths-tablet-landscape-firefox.png)
+
+**Maths page - Tablet Landscape - Chrome**
+
+![Maths-Tablet Landscape-Chrome](documentation/tests/maths-tablet-landscape-chrome.png)
+
+**Maths page - Tablet Portrait - Firefox**
+
+![Maths-Tablet Portrait-Firefox](documentation/tests/maths-tablet-portrait-firefox.png)
+
+**Maths page - Tablet Portrait - Chrome**
+
+![Maths-Tablet Portrait-Chrome](documentation/tests/maths-tablet-portrait-chrome.png)
+
+**Maths page - Phone - Firefox**
+
+![Maths-Phone-Firefox](documentation/tests/maths-phone-firefox.png)
+
+**Maths page - Phone - Chrome**
+
+![Maths-Phone-Chrome](documentation/tests/maths-phone-chrome.png)
+
 **About page - Laptop - Firefox**
 ![About-Laptop-Firefox](documentation/tests/about-laptop-firefox.png)
 
@@ -179,6 +235,7 @@ The MathsBuddy website will be tested on the following devices:
 
 #### Known Bugs
 Number types exam questions says 16 questions but it only has 4.
+
 Image on Trigonometry topic page (5.1KB) does not have a smaller image to display on smaller screens
 
 #### Validation

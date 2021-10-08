@@ -890,6 +890,7 @@ body {
 .breadcrumbLink:hover {
   border-bottom: 1px solid #053937;
   background-color: #848384;
+  color: #fffe87;
 }
 
 .examButton {

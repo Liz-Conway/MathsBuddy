@@ -233,6 +233,38 @@ The MathsBuddy website will be tested on the following devices:
 **About page - Phone - Chrome**
 ![About-Phone-Chrome](documentation/tests/about-phone-chrome.png)
 
+**Contact Us page - Laptop - Firefox**
+
+![Contact Us-Laptop-Firefox](documentation/tests/contact-us-laptop-firefox.png)
+
+**Contact Us page - Laptop - Chrome**
+
+![Contact Us-Laptop-Chrome](documentation/tests/contact-us-laptop-chrome.png)
+
+**Contact Us page - Tablet Landscape - Firefox**
+
+![Contact Us-Tablet Landscape-Firefox](documentation/tests/contact-us-tablet-landscape-firefox.png)
+
+**Contact Us page - Tablet Landscape - Chrome**
+
+![Contact Us-Tablet Landscape-Chrome](documentation/tests/contact-us-tablet-landscape-chrome.png)
+
+**Contact Us page - Tablet Portrait - Firefox**
+
+![Contact Us-Tablet Portrait-Firefox](documentation/tests/contact-us-tablet-portrait-firefox.png)
+
+**Contact Us page - Tablet Portrait - Chrome**
+
+![Contact Us-Tablet Portrait-Chrome](documentation/tests/contact-us-tablet-portrait-chrome.png)
+
+**Contact Us page - Phone - Firefox**
+
+![Contact Us-Phone-Firefox](documentation/tests/contact-us-phone-firefox.png)
+
+**Contact Us page - Phone - Chrome**
+
+![Contact Us-Phone-Chrome](documentation/tests/contact-us-phone-chrome.png)
+
 #### Known Bugs
 Number types exam questions says 16 questions but it only has 4.
 

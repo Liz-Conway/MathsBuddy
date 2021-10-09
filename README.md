@@ -185,6 +185,7 @@ The MathsBuddy website was checked to ensure accessibility using the [WAVE](http
     - MathsBuddy provides resources that cover maths topics for the Junior Cycle.
     - MathsBuddy provides access to past exam questions from the maths Junior Cycle exams.
     - MathsBuddy provides resources and exam questions for both Paper 1 and Paper 2 on the Junior Cycle exam.
+    - Covers Number Types (paper 1), Algebra(paper 1), Co-ordinate Geometry(paper 2) and Trigonometry (paper 2)
 - Ease of use
     - A simple easy-to-use application focusing on reducing the 'cognitive load' on students.  The system is designed so that students do not have to remember large amounts of detail.
 - Information Display 
@@ -204,14 +205,15 @@ The MathsBuddy website was checked to ensure accessibility using the [WAVE](http
 - Image Treatment 
     - Images are compressed to reduce download times.  [tinypng.com](https://tinypng.com) and [tinyjpg.com](https://tinyjpg.com) were used to compress the  image files.
     - Multiple versions of each image are used, with smaller images used for smaller devices.  This reduces the download times for tablets and especially mobile devices.  The HTML5 *source* element is used and its *srcset* attribute is set to show the smaller image at lower screen widths.  For background images, a media query is used in CSS to set the background image to a smaller image when the screen size falls below a particular size.
-- Video Treatment 
+- Non-image Treatment 
     - All videos are made available in mp4, webm and ogg formats.  Videos were converted to webm format using [wem.to](https://webm.to/video-webm), and to ogg format using [onlineconverter.com](https://www.onlineconverter.com/video-to-ogg). The HTML5 *source* element is used and its *src* attribute is set to point to the correct version. Its *type* attribute is set to tell the browser which format this src is pointing to.
     - Text is set within the *video* element. This text will be displayed if the student's browser does not support the video element.
     - The video on the home page is set to play automatically and to loop.  This is because the video is intended as a background video, its sound is muted and the colours have a low saturation so they will not distract the student.
     - All other videos are not autoplay and allow the student to control their playback.
     - Some videos are served from the MathsBuddy site.
-    - Videos served from external sites are displayed within an iframe.    
-- Non-image/video treatment
+    - Videos served from external sites are displayed within an iframe.
+    - For contrast reasons to make the MathsBuddy website accessible to those with vision impairment, text is shown either as dark text on a light background, or light text on a dark background.
+  
 
 #### Wireframes
 
@@ -243,6 +245,23 @@ The MathsBuddy website was checked to ensure accessibility using the [WAVE](http
 
 #### Testing 
 All testing on the MathsBuddy website will be done manually.
+
+**Heuristic Evaluation**
+Heuristic testing is performed where there an expert in the particular field is not available.  However, an expert has laid out a set of rules for testing.  The non-expert tester can follow these heuristic set of rules, and apply them in place of an expert tester.
+
+For the MathsBuddy website, a set of heuristic rules developed by Jakob Nielson, an expert in usability, will be used to test the usability of the website.
+
+No | Heuristic test | MathsBuddy
+-- | --- | --- 
+1 | Visibility of system status | Navbar indicates where in the site the user is 2 | Match between system and real world | Real exam questions
+3 | User control and freedom | Full navigation, control on videos
+4 | Consistency and standards | Same navigation on all pages, layouts are the same
+5 | Error prevention | All links are working
+6 | Flexibility & Efficiency of use | Student can go from on topic to the next easily, or navigation back using breadcrumb
+7 | Aesthetic & minimalist design | Minimal content is shown, e.g. only videos needed and a button to go to exam pages
+8 | Recognition rather than recall | Each topic page is laid out the same way
+9 | Help users recognise, diagnose and recover from errors | 404 error page
+
 
 The MathsBuddy website will be tested on the following browsers:
  - Firefox
@@ -493,5 +512,10 @@ This project is deployed to [Github Pages](https://liz-conway.github.io/MathsBud
 
 
 ### Cloning versus Forking
+The major difference between cloning and forking is where your updates go when you perform a ```git push```.
+
+With cloning you are pushing the updates to the ```Liz-Conway/MathsBuddy``` repo on github.
+
+With forking you are pushing the updates to your own MathsBuddy repo on github.
 
 ## Credits

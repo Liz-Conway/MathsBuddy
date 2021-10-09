@@ -64,19 +64,39 @@ These screen mockups were created for the MathsBuddy website using the [Multi De
 
 ### Existing Features
 1 Site navigation
+On the MathsBuddy website each page has a header at the top of the page which contains a logo and a NavBar.  On any page if the student clicks the logo they will be redirected to the MathsBuddy home page.
+The NavBar contains links to the 4 main pages (Home, Maths, About and Contact Us).
+
+The NavBar is used so that the student can navigate easily between the major sections of the MathsBuddy website, on every device.
+
+On each of the topic video pages, which are navigated to from the Maths page, there is also a breadcrumb navigation bar.  This breadcrumb navigation bar serves a number of purposes.  Firstly, it allows the student to navigate from one topic page to another, rather than having to go back to the Maths page each time they wish to go from one topic page to another.  Secondly, it allow the student to navigate back up to the parent(Maths) page easily.  Thirdly, the breadcrumb shows the student exactly where they are in the MathsBuddy website.  Students will never feel lost when they use MathsBuddy.
+
+On each of the topic exam questions pages, which are navigated to from the topic video page, there is also a breadcrumb navigation bar.  This breadcrumb navigation bar serves a number of purposes.  Firstly, it allows the student to navigate from one exam question page to another, rather than having to go back to the topic video page each time they wish to go from one exam question page to another.  Secondly, it allow the student to navigate back up to the parent pages easily, both to the topic video page and the Maths page.  Thirdly, the breadcrumb shows the student exactly where they are in the MathsBuddy website.  Students will never feel lost when they use MathsBuddy.
+
 
 2 Show videos on each topic
+Each topic video page shows 3 videos relating to the topic, except the Trigonometry topic video page which show one image and 2 videos.  None of the videos will play automatically.  All of them have user controls.
+
+Students can click on whichever of these videos they want to watch.  They can expand it to full screen, pause, restart, mute, choose to go back or forward on the video if they wish.
+
+This gives the student full control over a multi-sensory, multimedia learning tool.  Learning is greatlly enhanced for every new sense that is used when studying.  These videos give the student the best chance to retain information from their study session with MathsBuddy.
+
+These videos come from two distinct types of source:
 
        2.1 Videos stored locally
 
        2.2 Videos from external sources.  E.g. Youtube, Khan Academy
 
-3 Display past exam papers for each topic   
- 
+3 Display past exam papers for each topic
+Since the end goal of the Junior Cycle maths programme is for students to sit a formal Department of Education exam, it is imperative that the student has access to questions on each topic that are of the same standard as those that will appear on the exam.
+
+The benefit of having past exam papers on the MathsBuddy website to work through, is that the student will be practising questions that are of the same standard that they will encounter during the exam.  This is a key part of the preparation for any exam, but especially for the Junior Cycle exam which will be the first externally set exam that most students will sit.
+
 ### Features to Implement in the future
 - Send the 'Contact Us' form data to a backend server.
 - Use a collapsible navbar in mobile versions of the site.
-- Add more maths topics!
+- Add more maths topics.
+- Add more past papers exam questions.
 
 ## UX
 
@@ -166,7 +186,7 @@ The MathsBuddy website was checked to ensure accessibility using the [WAVE](http
     - MathsBuddy provides access to past exam questions from the maths Junior Cycle exams.
     - MathsBuddy provides resources and exam questions for both Paper 1 and Paper 2 on the Junior Cycle exam.
 - Ease of use
-    - A simple easy-to-use application focusing on reducing the 'cognitive load' on users.  The system is designed so that users do not have to remember large amounts of detail.
+    - A simple easy-to-use application focusing on reducing the 'cognitive load' on students.  The system is designed so that students do not have to remember large amounts of detail.
 - Information Display 
     - There is a main navigation bar on every page.  This allows navigation to all the main pages (Home, Maths, About and Contact Us) from everywhere on the site.
     - For the Topics pages, as well as the main navigation bar, there is a secondary (breadcrumb) navigation that allows the student to (i) go back to the parent page (Maths), or (ii) go to the previous and next topic pages.
@@ -178,17 +198,17 @@ The MathsBuddy website was checked to ensure accessibility using the [WAVE](http
     - FlexBox is used to give responsive layouts
     - Media Queries are used for each different screen size the tool will be used on.
 - Navigation 
-    - Straightforward navigation enabling users to move easily from one part of the site to another.
+    - Straightforward navigation enabling students to move easily from one part of the site to another.
     - When a student ventures onto a page which is not navigable from the main navigation bar, a secondary breadcrumb navigation bar is engaged, which allows the student to navigate all the way back to a main page.
     - The secondary breadcrumb navigation bar also allows the student to go to the next and previous pages at the same level.  I.E.  If the student is on the Number types *topic* page, he can go to the Algebra *topic* page or the Trigonometry *topic* page.  Also, if the student is on the Number types *exam questions* page, he can go to the Algebra *exam questions* page or the Trigonometry *exam questions* page.
 - Image Treatment 
     - Images are compressed to reduce download times.  [tinypng.com](https://tinypng.com) and [tinyjpg.com](https://tinyjpg.com) were used to compress the  image files.
-    - Multiple versions of each image are used, with smaller images used for smaller devices.  This reduces the download times for tablets and especially mobile devices.  The HTML5 <source> element is used and its *srcset* attribute is set to show the smaller image at lower screen widths.  For background images, a media query is used in CSS to set the background image to a smaller image when the screen size falls below a particular size.
+    - Multiple versions of each image are used, with smaller images used for smaller devices.  This reduces the download times for tablets and especially mobile devices.  The HTML5 *source* element is used and its *srcset* attribute is set to show the smaller image at lower screen widths.  For background images, a media query is used in CSS to set the background image to a smaller image when the screen size falls below a particular size.
 - Video Treatment 
     - All videos are made available in mp4, webm and ogg formats.  Videos were converted to webm format using [wem.to](https://webm.to/video-webm), and to ogg format using [onlineconverter.com](https://www.onlineconverter.com/video-to-ogg). The HTML5 *source* element is used and its *src* attribute is set to point to the correct version. Its *type* attribute is set to tell the browser which format this src is pointing to.
     - Text is set within the *video* element. This text will be displayed if the student's browser does not support the video element.
-    - The video on the home page is set to play automatically and to loop.  This is because the video is intended as a background video, its sound is muted and the colours have a low saturation so they will not distract the user.
-    - All other videos are not autoplay and allow the user to control their playback.
+    - The video on the home page is set to play automatically and to loop.  This is because the video is intended as a background video, its sound is muted and the colours have a low saturation so they will not distract the student.
+    - All other videos are not autoplay and allow the student to control their playback.
     - Some videos are served from the MathsBuddy site.
     - Videos served from external sites are displayed within an iframe.    
 - Non-image/video treatment
@@ -230,7 +250,7 @@ The MathsBuddy website will be tested on the following browsers:
 
 The MathsBuddy website will be tested on the following devices:
  - Laptop = HP EliteBook 8570p
- - Tablet (Landscape orientation) = Huawei MediaPad M5 1.1"
+ - Tablet (Landscape orientation) = Huawei MediaPad M5 10.1"
  - Tablet (Landscape orientation) = Huawei MediaPad M5 10.1"
  - Phone = Samsung Galaxy A10
  
@@ -418,7 +438,23 @@ Trigonometry exam questions Page
 - Site map :  Basic site map with prioritisation and categorisation of each page.
 
 #### Deployment 
-- This project is deployed to [Github Pages](https://liz-conway.github.io/MathsBuddy/)
+This project is deployed to [Github Pages](https://liz-conway.github.io/MathsBuddy/)
+
+1. Push the code to Github using ```git push```.
+
+2. Go to the Github repository [MathsBuddy github repository](https://github.com/Liz-Conway/MathsBuddy)
+
+3. In the Github repository, click on the *Settings* menu option.
+![Github Settings](documentation/deploy/deploy-github-settings.png)
+
+4. Scroll down to and select the *Pages* section.
+![Github Pages](documentation/deploy/deploy-github-pages.png)
+
+5. Choose the *main* branch to deploy
+![Select main branch](documentation/deploy/deploy-select-main-branch.png)
+
+6. After a few minutes the site was deployed.
+![MathsBuddy website deployed](documentation/deploy/deploy-github-deployed.png)
 
 ## Technology Used
 

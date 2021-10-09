@@ -29,6 +29,13 @@ body {
 
   /* Non-inheritable*/
   padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body main {
+  margin-bottom: auto;
 }
 
 .utilMarginTopSmall {

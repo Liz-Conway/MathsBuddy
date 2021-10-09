@@ -17,6 +17,46 @@ MathsBuddy is a website which provides resources for students who will be taking
 MathsBuddy gives access to tutorial videos and past exam questions, broken down by topic, for the Junior Cycle maths exam.
 
 ## Screen Mockups
+These screen mockups were created for the MathsBuddy website using the [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/index.php) from techsini.com.
+
+**Home Page**
+![Home page](documentation/mockup/home-mockup.png)
+
+**Maths Page**
+![Maths page](documentation/mockup/maths-mockup.png)
+
+**About Page**
+![About page](documentation/mockup/about-mockup.png)
+
+**Contact Us Page**
+![Contact Us page](documentation/mockup/contact-us-mockup.png)
+
+**Number Types Page**
+![Number Types page](documentation/mockup/number-types-mockup.png)
+
+**Co-ordinate Geometry Page**
+![Co-ordinate Geometry page](documentation/mockup/coordinate-geometry-mockup.png)
+
+**Algebra Page**
+![Algebra page](documentation/mockup/algebra-mockup.png)
+
+**Trigonometry Page**
+![Trigonometry page](documentation/mockup/trigonometry-mockup.png)
+
+**Number Types Exam Questions Page**
+![Number Types Exam question page](documentation/mockup/number-types-exam-questions-mockup.png)
+
+**Co-ordinate Geometry Exam Questions Page**
+![Co-ordinate Geometry Exam question page](documentation/mockup/coordinate-geometry-exam-questions-mockup.png)
+
+**Algebra Exam Questions Page**
+![Algebra Exam question page](documentation/mockup/algebra-exam-questions-mockup.png)
+
+**Trigonometry Exam Questions Page**
+![Trigonometry Exam question page](documentation/mockup/trigonometry-exam-questions-mockup.png)
+
+**404 error Page**
+![404 error page](documentation/mockup/404-mockup.png)
 
 
 
@@ -107,6 +147,9 @@ The MathsBuddy website was checked to ensure accessibility using the [WAVE](http
 
 **Trigonometry Exam Questions Page**
 ![Trigonometry Exam question page](documentation/accessibility/trigonometry-exam-questions-accessibility.png)
+
+**404 error Page**
+![404 error page](documentation/accessibility/404-accessibility.png)
 
 
 ## Design Decisions

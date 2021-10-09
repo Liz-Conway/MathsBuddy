@@ -1029,6 +1029,10 @@ body main {
   margin: 3rem auto;
 }
 
+.errorSubtitle {
+  color: #053936;
+}
+
 /* ################ RESPONSIVE MEDIA QUERIES ################## */
 /* For tablets in landscape orientation */
 @media only screen and (max-width: 950px) {

@@ -1036,6 +1036,10 @@ body main {
 /* ################ RESPONSIVE MEDIA QUERIES ################## */
 /* For tablets in landscape orientation */
 @media only screen and (max-width: 950px) {
+  body {
+  	min-height: 85vh;
+  }
+  
   .headingPrimaryTitle {
     font-size: 5rem;
     letter-spacing: 3rem;

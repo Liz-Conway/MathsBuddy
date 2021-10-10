@@ -253,11 +253,12 @@ For the MathsBuddy website, a set of heuristic rules developed by Jakob Nielson,
 
 No | Heuristic test | MathsBuddy
 -- | --- | --- 
-1 | Visibility of system status | Navbar indicates where in the site the user is 2 | Match between system and real world | Real exam questions
+1 | Visibility of system status | Navbar indicates where in the site the user is
+ 2 | Match between system and real world | Real exam questions
 3 | User control and freedom | Full navigation, control on videos
 4 | Consistency and standards | Same navigation on all pages, layouts are the same
 5 | Error prevention | All links are working
-6 | Flexibility & Efficiency of use | Student can go from on topic to the next easily, or navigation back using breadcrumb
+6 | Flexibility & Efficiency of use | Student can go from on topic to the next easily, or navigate back using breadcrumb
 7 | Aesthetic & minimalist design | Minimal content is shown, e.g. only videos needed and a button to go to exam pages
 8 | Recognition rather than recall | Each topic page is laid out the same way
 9 | Help users recognise, diagnose and recover from errors | 404 error page
@@ -386,6 +387,551 @@ The MathsBuddy website will be tested on the following devices:
 **Contact Us page - Phone - Chrome**
 
 ![Contact Us-Phone-Chrome](documentation/tests/contact-us-phone-chrome.png)
+
+**Number Types page - Laptop - Firefox**
+
+![Number Types-Laptop-Firefox](documentation/tests/number-types-laptop-firefox.png)
+
+**Number Types page - Laptop - Chrome**
+
+![Number Types-Laptop-Chrome](documentation/tests/number-types-laptop-chrome.png)
+
+**Number Types page - Tablet Landscape - Firefox**
+
+![Number Types-Tablet Landscape-Firefox](documentation/tests/number-types-tablet-landscape-firefox.png)
+
+**Number Types page - Tablet Landscape - Chrome**
+
+![Number Types-Tablet Landscape-Chrome](documentation/tests/number-types-tablet-landscape-chrome.png)
+
+**Number Types page - Tablet Portrait - Firefox**
+
+![Number Types-Tablet Portrait-Firefox](documentation/tests/number-types-tablet-portrait-firefox.png)
+
+**Number Types page - Tablet Portrait - Chrome**
+
+![Number Types-Tablet Portrait-Chrome](documentation/tests/number-types-tablet-portrait-chrome.png)
+
+**Number Types page - Phone - Firefox**
+
+![Number Types-Phone-Firefox](documentation/tests/number-types-phone-firefox.png)
+
+**Number Types page - Phone - Chrome**
+
+![Number Types-Phone-Chrome](documentation/tests/number-types-phone-chrome.png)
+
+**Algebra page - Laptop - Firefox**
+
+![Algebra-Laptop-Firefox](documentation/tests/algebra-laptop-firefox.png)
+
+**Algebra page - Laptop - Chrome**
+
+![Algebra-Laptop-Chrome](documentation/tests/algebra-laptop-chrome.png)
+
+**Algebra page - Tablet Landscape - Firefox**
+
+![Algebra-Tablet Landscape-Firefox](documentation/tests/algebra-tablet-landscape-firefox.png)
+
+**Algebra page - Tablet Landscape - Chrome**
+
+![Algebra-Tablet Landscape-Chrome](documentation/tests/algebra-tablet-landscape-chrome.png)
+
+**Algebra page - Tablet Portrait - Firefox**
+
+![Algebra-Tablet Portrait-Firefox](documentation/tests/algebra-tablet-portrait-firefox.png)
+
+**Algebra page - Tablet Portrait - Chrome**
+
+![Algebra-Tablet Portrait-Chrome](documentation/tests/algebra-tablet-portrait-chrome.png)
+
+**Algebra page - Phone - Firefox**
+
+![Algebra-Phone-Firefox](documentation/tests/algebra-phone-firefox.png)
+
+**Algebra page - Phone - Chrome**
+
+![Algebra-Phone-Chrome](documentation/tests/algebra-phone-chrome.png)
+
+**Co-ordinate Geometry page - Laptop - Firefox**
+
+![Co-ordinate Geometry-Laptop-Firefox](documentation/tests/coordinate-geometry-laptop-firefox.png)
+
+**Co-ordinate Geometry page - Laptop - Chrome**
+
+![Co-ordinate Geometry-Laptop-Chrome](documentation/tests/coordinate-geometry-laptop-chrome.png)
+
+**Co-ordinate Geometry page - Tablet Landscape - Firefox**
+
+![Co-ordinate Geometry-Tablet Landscape-Firefox](documentation/tests/coordinate-geometry-tablet-landscape-firefox.png)
+
+**Co-ordinate Geometry page - Tablet Landscape - Chrome**
+
+![Co-ordinate Geometry-Tablet Landscape-Chrome](documentation/tests/coordinate-geometry-tablet-landscape-chrome.png)
+
+**Co-ordinate Geometry page - Tablet Portrait - Firefox**
+
+![Co-ordinate Geometry-Tablet Portrait-Firefox](documentation/tests/coordinate-geometry-tablet-portrait-firefox.png)
+
+**Co-ordinate Geometry page - Tablet Portrait - Chrome**
+
+![Co-ordinate Geometry-Tablet Portrait-Chrome](documentation/tests/coordinate-geometry-tablet-portrait-chrome.png)
+
+**Co-ordinate Geometry page - Phone - Firefox**
+
+![Co-ordinate Geometry-Phone-Firefox](documentation/tests/coordinate-geometry-phone-firefox.png)
+
+**Co-ordinate Geometry page - Phone - Chrome**
+
+![Co-ordinate Geometry-Phone-Chrome](documentation/tests/coordinate-geometry-phone-chrome.png)
+
+**Trigonometry page - Laptop - Firefox**
+
+![Trigonometry-Laptop-Firefox](documentation/tests/trigonometry-laptop-firefox.png)
+
+**Trigonometry page - Laptop - Chrome**
+
+![Trigonometry-Laptop-Chrome](documentation/tests/trigonometry-laptop-chrome.png)
+
+**Trigonometry page - Tablet Landscape - Firefox**
+
+![Trigonometry-Tablet Landscape-Firefox](documentation/tests/trigonometry-tablet-landscape-firefox.png)
+
+**Trigonometry page - Tablet Landscape - Chrome**
+
+![Trigonometry-Tablet Landscape-Chrome](documentation/tests/trigonometry-tablet-landscape-chrome.png)
+
+**Trigonometry page - Tablet Portrait - Firefox**
+
+![Trigonometry-Tablet Portrait-Firefox](documentation/tests/trigonometry-tablet-portrait-firefox.png)
+
+**Trigonometry page - Tablet Portrait - Chrome**
+
+![Trigonometry-Tablet Portrait-Chrome](documentation/tests/trigonometry-tablet-portrait-chrome.png)
+
+**Trigonometry page - Phone - Firefox**
+
+![Trigonometry-Phone-Firefox](documentation/tests/trigonometry-phone-firefox.png)
+
+**Trigonometry page - Phone - Chrome**
+
+![Trigonometry-Phone-Chrome](documentation/tests/trigonometry-phone-chrome.png)
+
+**Exam Questions > Number Types page - Laptop - Firefox**
+
+![Exam Questions > Laptop-Firefox](documentation/tests/number-types-exam-laptop-firefox.png)
+
+**Exam Questions > Number Types page - Laptop - Chrome**
+
+![Exam Questions > Number Types-Laptop-Chrome](documentation/tests/number-types-exam-laptop-chrome.png)
+
+**Exam Questions > Number Types page - Tablet Landscape - Firefox**
+
+![Exam Questions > Number Types-Tablet Landscape-Firefox](documentation/tests/number-types-exam-tablet-landscape-firefox.png)
+
+**Exam Questions > Number Types page - Tablet Landscape - Chrome**
+
+![Exam Questions > Number Types-Tablet Landscape-Chrome](documentation/tests/number-types-exam-tablet-landscape-chrome.png)
+
+**Exam Questions > Number Types page - Tablet Portrait - Firefox**
+
+![Exam Questions > Number Types-Tablet Portrait-Firefox](documentation/tests/number-types-exam-tablet-portrait-firefox.png)
+
+**Exam Questions > Number Types page - Tablet Portrait - Chrome**
+
+![Exam Questions > Number Types-Tablet Portrait-Chrome](documentation/tests/number-types-exam-tablet-portrait-chrome.png)
+
+**Exam Questions > Number Types page - Phone - Firefox**
+
+![Exam Questions > Number Types-Phone-Firefox](documentation/tests/number-types-exam-phone-firefox.png)
+
+**Exam Questions > Number Types page - Phone - Chrome**
+
+![Exam Questions > Number Types-Phone-Chrome](documentation/tests/number-types-exam-phone-chrome.png)
+
+**Exam Questions > Algebra page - Laptop - Firefox**
+
+![Exam Questions > Algebra-Laptop-Firefox](documentation/tests/algebra-exam-laptop-firefox.png)
+
+**Exam Questions > Algebra page - Laptop - Chrome**
+
+![Exam Questions > Algebra-Laptop-Chrome](documentation/tests/algebra-exam-laptop-chrome.png)
+
+**Exam Questions > Algebra page - Tablet Landscape - Firefox**
+
+![Exam Questions > Algebra-Tablet Landscape-Firefox](documentation/tests/algebra-exam-tablet-landscape-firefox.png)
+
+**Exam Questions > Algebra page - Tablet Landscape - Chrome**
+
+![Exam Questions > Algebra-Tablet Landscape-Chrome](documentation/tests/algebra-exam-tablet-landscape-chrome.png)
+
+**Exam Questions > Algebra page - Tablet Portrait - Firefox**
+
+![Exam Questions > Algebra-Tablet Portrait-Firefox](documentation/tests/algebra-exam-tablet-portrait-firefox.png)
+
+**Exam Questions > Algebra page - Tablet Portrait - Chrome**
+
+![Exam Questions > Algebra-Tablet Portrait-Chrome](documentation/tests/algebra-exam-tablet-portrait-chrome.png)
+
+**Exam Questions > Algebra page - Phone - Firefox**
+
+![Exam Questions > Algebra-Phone-Firefox](documentation/tests/algebra-exam-phone-firefox.png)
+
+**Exam Questions > Algebra page - Phone - Chrome**
+
+![Exam Questions > Algebra-Phone-Chrome](documentation/tests/algebra-exam-phone-chrome.png)
+
+**Exam Questions > Co-ordinate Geometry page - Laptop - Firefox**
+
+![Exam Questions > Co-ordinate Geometry-Laptop-Firefox](documentation/tests/coordinate-geometry-exam-laptop-firefox.png)
+
+**Exam Questions > Co-ordinate Geometry page - Laptop - Chrome**
+
+![Exam Questions > Co-ordinate Geometry-Laptop-Chrome](documentation/tests/coordinate-geometry-exam-laptop-chrome.png)
+
+**Exam Questions > Co-ordinate Geometry page - Tablet Landscape - Firefox**
+
+![Exam Questions > Co-ordinate Geometry-Tablet Landscape-Firefox](documentation/tests/coordinate-geometry-exam-tablet-landscape-firefox.png)
+
+**Exam Questions > Co-ordinate Geometry page - Tablet Landscape - Chrome**
+
+![Exam Questions > Co-ordinate Geometry-Tablet Landscape-Chrome](documentation/tests/coordinate-geometry-exam-tablet-landscape-chrome.png)
+
+**Exam Questions > Co-ordinate Geometry page - Tablet Portrait - Firefox**
+
+![Exam Questions > Co-ordinate Geometry-Tablet Portrait-Firefox](documentation/tests/coordinate-geometry-exam-tablet-portrait-firefox.png)
+
+**Exam Questions > Co-ordinate Geometry page - Tablet Portrait - Chrome**
+
+![Exam Questions > Co-ordinate Geometry-Tablet Portrait-Chrome](documentation/tests/coordinate-geometry-exam-tablet-portrait-chrome.png)
+
+**Exam Questions > Co-ordinate Geometry page - Phone - Firefox**
+
+![Exam Questions > Co-ordinate Geometry-Phone-Firefox](documentation/tests/coordinate-geometry-exam-phone-firefox.png)
+
+**Exam Questions > Co-ordinate Geometry page - Phone - Chrome**
+
+![Exam Questions > Co-ordinate Geometry-Phone-Chrome](documentation/tests/coordinate-geometry-exam-phone-chrome.png)
+
+**Exam Questions > Trigonometry page - Laptop - Firefox**
+
+![Exam Questions > Trigonometry-Laptop-Firefox](documentation/tests/trigonometry-exam-laptop-firefox.png)
+
+**Exam Questions > Trigonometry page - Laptop - Chrome**
+
+![Exam Questions > Trigonometry-Laptop-Chrome](documentation/tests/trigonometry-exam-laptop-chrome.png)
+
+**Exam Questions > Trigonometry page - Tablet Landscape - Firefox**
+
+![Exam Questions > Trigonometry-Tablet Landscape-Firefox](documentation/tests/trigonometry-exam-tablet-landscape-firefox.png)
+
+**Exam Questions > Trigonometry page - Tablet Landscape - Chrome**
+
+![Exam Questions > Trigonometry-Tablet Landscape-Chrome](documentation/tests/trigonometry-exam-tablet-landscape-chrome.png)
+
+**Exam Questions > Trigonometry page - Tablet Portrait - Firefox**
+
+![Exam Questions > Trigonometry-Tablet Portrait-Firefox](documentation/tests/trigonometry-exam-tablet-portrait-firefox.png)
+
+**Exam Questions > Trigonometry page - Tablet Portrait - Chrome**
+
+![Exam Questions > Trigonometry-Tablet Portrait-Chrome](documentation/tests/trigonometry-exam-tablet-portrait-chrome.png)
+
+**Exam Questions > Trigonometry page - Phone - Firefox**
+
+![Exam Questions > Trigonometry-Phone-Firefox](documentation/tests/trigonometry-exam-phone-firefox.png)
+
+**Exam Questions > Trigonometry page - Phone - Chrome**
+
+![Exam Questions > Trigonometry-Phone-Chrome](documentation/tests/trigonometry-exam-phone-chrome.png)
+
+**Navigation > Main NavBar - Laptop - Firefox**
+
+![Navigation > Main NavBar-Laptop-Firefox](documentation/tests/number-types-nav-laptop-firefox.png)
+
+**Navigation > Main NavBar - Laptop - Chrome**
+
+![Navigation > Main NavBar-Laptop-Chrome](documentation/tests/number-types-nav-laptop-chrome.png)
+
+**Navigation > Main NavBar - Tablet Landscape - Firefox**
+
+![Navigation > Main NavBar-Tablet Landscape-Firefox](documentation/tests/number-types-nav-tablet-landscape-firefox.png)
+
+**Navigation > Main NavBar - Tablet Landscape - Chrome**
+
+![Navigation > Main NavBar-Tablet Landscape-Chrome](documentation/tests/number-types-nav-tablet-landscape-chrome.png)
+
+**Navigation > Main NavBar - Tablet Portrait - Firefox**
+
+![Navigation > Main NavBar-Tablet Portrait-Firefox](documentation/tests/number-types-nav-tablet-portrait-firefox.png)
+
+**Navigation > Main NavBar - Tablet Portrait - Chrome**
+
+![Navigation > Main NavBar-Tablet Portrait-Chrome](documentation/tests/number-types-nav-tablet-portrait-chrome.png)
+
+**Navigation > Main NavBar - Phone - Firefox**
+
+![Navigation > Main NavBar-Phone-Firefox](documentation/tests/number-types-nav-phone-firefox.png)
+
+**Navigation > Main NavBar - Phone - Chrome**
+
+![Navigation > Main NavBar-Phone-Chrome](documentation/tests/number-types-nav-phone-chrome.png)
+
+**Navigation > Number Types - Laptop - Firefox**
+
+![Navigation > Number Types-Laptop-Firefox](documentation/tests/number-types-nav-laptop-firefox.png)
+
+**Navigation > Number Types - Laptop - Chrome**
+
+![Navigation > Number Types-Laptop-Chrome](documentation/tests/number-types-nav-laptop-chrome.png)
+
+**Navigation > Number Types - Tablet Landscape - Firefox**
+
+![Navigation > Number Types-Tablet Landscape-Firefox](documentation/tests/number-types-nav-tablet-landscape-firefox.png)
+
+**Navigation > Number Types - Tablet Landscape - Chrome**
+
+![Navigation > Number Types-Tablet Landscape-Chrome](documentation/tests/number-types-nav-tablet-landscape-chrome.png)
+
+**Navigation > Number Types - Tablet Portrait - Firefox**
+
+![Navigation > Number Types-Tablet Portrait-Firefox](documentation/tests/number-types-nav-tablet-portrait-firefox.png)
+
+**Navigation > Number Types - Tablet Portrait - Chrome**
+
+![Navigation > Number Types-Tablet Portrait-Chrome](documentation/tests/number-types-nav-tablet-portrait-chrome.png)
+
+**Navigation > Number Types - Phone - Firefox**
+
+![Navigation > Number Types-Phone-Firefox](documentation/tests/number-types-nav-phone-firefox.png)
+
+**Navigation > Number Types - Phone - Chrome**
+
+![Navigation > Number Types-Phone-Chrome](documentation/tests/number-types-nav-phone-chrome.png)
+
+**Navigation > Algebra - Laptop - Firefox**
+
+![Navigation > Algebra-Laptop-Firefox](documentation/tests/algebra-nav-laptop-firefox.png)
+
+**Navigation > Algebra - Laptop - Chrome**
+
+![Navigation > Algebra-Laptop-Chrome](documentation/tests/algebra-nav-laptop-chrome.png)
+
+**Navigation > Algebra - Tablet Landscape - Firefox**
+
+![Navigation > Algebra-Tablet Landscape-Firefox](documentation/tests/algebra-nav-tablet-landscape-firefox.png)
+
+**Navigation > Algebra - Tablet Landscape - Chrome**
+
+![Navigation > Algebra-Tablet Landscape-Chrome](documentation/tests/algebra-nav-tablet-landscape-chrome.png)
+
+**Navigation > Algebra - Tablet Portrait - Firefox**
+
+![Navigation > Algebra-Tablet Portrait-Firefox](documentation/tests/algebra-nav-tablet-portrait-firefox.png)
+
+**Navigation > Algebra - Tablet Portrait - Chrome**
+
+![Navigation > Algebra-Tablet Portrait-Chrome](documentation/tests/algebra-nav-tablet-portrait-chrome.png)
+
+**Navigation > Algebra - Phone - Firefox**
+
+![Navigation > Algebra-Phone-Firefox](documentation/tests/algebra-nav-phone-firefox.png)
+
+**Navigation > Algebra - Phone - Chrome**
+
+![Navigation > Algebra-Phone-Chrome](documentation/tests/algebra-nav-phone-chrome.png)
+
+**Navigation > Co-ordinate Geometry - Laptop - Firefox**
+
+![Navigation > Co-ordinate Geometry-Laptop-Firefox](documentation/tests/coordinate-geometry-nav-laptop-firefox.png)
+
+**Navigation > Co-ordinate Geometry - Laptop - Chrome**
+
+![Navigation > Co-ordinate Geometry-Laptop-Chrome](documentation/tests/coordinate-geometry-nav-laptop-chrome.png)
+
+**Navigation > Co-ordinate Geometry - Tablet Landscape - Firefox**
+
+![Navigation > Co-ordinate Geometry-Tablet Landscape-Firefox](documentation/tests/coordinate-geometry-nav-tablet-landscape-firefox.png)
+
+**Navigation > Co-ordinate Geometry - Tablet Landscape - Chrome**
+
+![Navigation > Co-ordinate Geometry-Tablet Landscape-Chrome](documentation/tests/coordinate-geometry-nav-tablet-landscape-chrome.png)
+
+**Navigation > Co-ordinate Geometry - Tablet Portrait - Firefox**
+
+![Navigation > Co-ordinate Geometry-Tablet Portrait-Firefox](documentation/tests/coordinate-geometry-nav-tablet-portrait-firefox.png)
+
+**Navigation > Co-ordinate Geometry - Tablet Portrait - Chrome**
+
+![Navigation > Co-ordinate Geometry-Tablet Portrait-Chrome](documentation/tests/coordinate-geometry-nav-tablet-portrait-chrome.png)
+
+**Navigation > Co-ordinate Geometry - Phone - Firefox**
+
+![Navigation > Co-ordinate Geometry-Phone-Firefox](documentation/tests/coordinate-geometry-nav-phone-firefox.png)
+
+**Navigation > Co-ordinate Geometry - Phone - Chrome**
+
+![Navigation > Co-ordinate Geometry-Phone-Chrome](documentation/tests/coordinate-geometry-nav-phone-chrome.png)
+
+**Navigation > Trigonometry - Laptop - Firefox**
+
+![Navigation > Trigonometry-Laptop-Firefox](documentation/tests/trigonometry-nav-laptop-firefox.png)
+
+**Navigation > Trigonometry - Laptop - Chrome**
+
+![Navigation > Trigonometry-Laptop-Chrome](documentation/tests/trigonometry-nav-laptop-chrome.png)
+
+**Navigation > Trigonometry - Tablet Landscape - Firefox**
+
+![Navigation > Trigonometry-Tablet Landscape-Firefox](documentation/tests/trigonometry-nav-tablet-landscape-firefox.png)
+
+**Navigation > Trigonometry - Tablet Landscape - Chrome**
+
+![Navigation > Trigonometry-Tablet Landscape-Chrome](documentation/tests/trigonometry-nav-tablet-landscape-chrome.png)
+
+**Navigation > Trigonometry - Tablet Portrait - Firefox**
+
+![Navigation > Trigonometry-Tablet Portrait-Firefox](documentation/tests/trigonometry-nav-tablet-portrait-firefox.png)
+
+**Navigation > Trigonometry - Tablet Portrait - Chrome**
+
+![Navigation > Trigonometry-Tablet Portrait-Chrome](documentation/tests/trigonometry-nav-tablet-portrait-chrome.png)
+
+**Navigation > Trigonometry - Phone - Firefox**
+
+![Navigation > Trigonometry-Phone-Firefox](documentation/tests/trigonometry-nav-phone-firefox.png)
+
+**Navigation > Trigonometry - Phone - Chrome**
+
+![Navigation > Trigonometry-Phone-Chrome](documentation/tests/trigonometry-nav-phone-chrome.png)
+
+**Navigation > Exam Questions > Number Types - Laptop - Firefox**
+
+![Navigation > Exam Questions > Number Types-Laptop-Firefox](documentation/tests/number-types-exam-nav-laptop-firefox.png)
+
+**Navigation > Exam Questions > Number Types - Laptop - Chrome**
+
+![Navigation > Exam Questions > Number Types-Laptop-Chrome](documentation/tests/number-types-exam-nav-laptop-chrome.png)
+
+**Navigation > Exam Questions > Number Types - Tablet Landscape - Firefox**
+
+![Navigation > Exam Questions > Number Types-Tablet Landscape-Firefox](documentation/tests/number-types-exam-nav-tablet-landscape-firefox.png)
+
+**Navigation > Exam Questions > Number Types - Tablet Landscape - Chrome**
+
+![Navigation > Exam Questions > Number Types-Tablet Landscape-Chrome](documentation/tests/number-types-exam-nav-tablet-landscape-chrome.png)
+
+**Navigation > Exam Questions > Number Types - Tablet Portrait - Firefox**
+
+![Navigation > Exam Questions > Number Types-Tablet Portrait-Firefox](documentation/tests/number-types-exam-nav-tablet-portrait-firefox.png)
+
+**Navigation > Exam Questions > Number Types - Tablet Portrait - Chrome**
+
+![Navigation > Exam Questions > Number Types-Tablet Portrait-Chrome](documentation/tests/number-types-exam-nav-tablet-portrait-chrome.png)
+
+**Navigation > Exam Questions > Number Types - Phone - Firefox**
+
+![Navigation > Exam Questions > Number Types-Phone-Firefox](documentation/tests/number-types-exam-nav-phone-firefox.png)
+
+**Navigation > Exam Questions > Number Types - Phone - Chrome**
+
+![Navigation > Exam Questions > Number Types-Phone-Chrome](documentation/tests/number-types-exam-nav-phone-chrome.png)
+
+**Navigation > Exam Questions > Algebra - Laptop - Firefox**
+
+![Navigation > Exam Questions > Algebra-Laptop-Firefox](documentation/tests/algebra-exam-nav-laptop-firefox.png)
+
+**Navigation > Exam Questions > Algebra - Laptop - Chrome**
+
+![Navigation > Exam Questions > Algebra-Laptop-Chrome](documentation/tests/algebra-exam-nav-laptop-chrome.png)
+
+**Navigation > Exam Questions > Algebra - Tablet Landscape - Firefox**
+
+![Navigation > Exam Questions > Algebra-Tablet Landscape-Firefox](documentation/tests/algebra-exam-nav-tablet-landscape-firefox.png)
+
+**Navigation > Exam Questions > Algebra - Tablet Landscape - Chrome**
+
+![Navigation > Exam Questions > Algebra-Tablet Landscape-Chrome](documentation/tests/algebra-exam-nav-tablet-landscape-chrome.png)
+
+**Navigation > Exam Questions > Algebra - Tablet Portrait - Firefox**
+
+![Navigation > Exam Questions > Algebra-Tablet Portrait-Firefox](documentation/tests/algebra-exam-nav-tablet-portrait-firefox.png)
+
+**Navigation > Exam Questions > Algebra - Tablet Portrait - Chrome**
+
+![Navigation > Exam Questions > Algebra-Tablet Portrait-Chrome](documentation/tests/algebra-exam-nav-tablet-portrait-chrome.png)
+
+**Navigation > Exam Questions > Algebra - Phone - Firefox**
+
+![Navigation > Exam Questions > Algebra-Phone-Firefox](documentation/tests/algebra-exam-nav-phone-firefox.png)
+
+**Navigation > Exam Questions > Algebra - Phone - Chrome**
+
+![Navigation > Exam Questions > Algebra-Phone-Chrome](documentation/tests/algebra-exam-nav-phone-chrome.png)
+
+**Navigation > Exam Questions > Co-ordinate Geometry - Laptop - Firefox**
+
+![Navigation > Exam Questions > Co-ordinate Geometry-Laptop-Firefox](documentation/tests/coordinate-geometry-exam-nav-laptop-firefox.png)
+
+**Navigation > Exam Questions > Co-ordinate Geometry - Laptop - Chrome**
+
+![Navigation > Exam Questions > Co-ordinate Geometry-Laptop-Chrome](documentation/tests/coordinate-geometry-exam-nav-laptop-chrome.png)
+
+**Navigation > Exam Questions > Co-ordinate Geometry - Tablet Landscape - Firefox**
+
+![Navigation > Exam Questions > Co-ordinate Geometry-Tablet Landscape-Firefox](documentation/tests/coordinate-geometry-exam-nav-tablet-landscape-firefox.png)
+
+**Navigation > Exam Questions > Co-ordinate Geometry - Tablet Landscape - Chrome**
+
+![Navigation > Exam Questions > Co-ordinate Geometry-Tablet Landscape-Chrome](documentation/tests/coordinate-geometry-exam-nav-tablet-landscape-chrome.png)
+
+**Navigation > Exam Questions > Co-ordinate Geometry - Tablet Portrait - Firefox**
+
+![Navigation > Exam Questions > Co-ordinate Geometry-Tablet Portrait-Firefox](documentation/tests/coordinate-geometry-exam-nav-tablet-portrait-firefox.png)
+
+**Navigation > Exam Questions > Co-ordinate Geometry - Tablet Portrait - Chrome**
+
+![Navigation > Exam Questions > Co-ordinate Geometry-Tablet Portrait-Chrome](documentation/tests/coordinate-geometry-exam-nav-tablet-portrait-chrome.png)
+
+**Navigation > Exam Questions > Co-ordinate Geometry - Phone - Firefox**
+
+![Navigation > Exam Questions > Co-ordinate Geometry-Phone-Firefox](documentation/tests/coordinate-geometry-exam-nav-phone-firefox.png)
+
+**Navigation > Exam Questions > Co-ordinate Geometry - Phone - Chrome**
+
+![Navigation > Exam Questions > Co-ordinate Geometry-Phone-Chrome](documentation/tests/coordinate-geometry-exam-nav-phone-chrome.png)
+
+**Navigation > Exam Questions > Trigonometry - Laptop - Firefox**
+
+![Navigation > Exam Questions > Trigonometry-Laptop-Firefox](documentation/tests/trigonometry-exam-nav-laptop-firefox.png)
+
+**Navigation > Exam Questions > Trigonometry - Laptop - Chrome**
+
+![Navigation > Exam Questions > Trigonometry-Laptop-Chrome](documentation/tests/trigonometry-exam-nav-laptop-chrome.png)
+
+**Navigation > Exam Questions > Trigonometry - Tablet Landscape - Firefox**
+
+![Navigation > Exam Questions > Trigonometry-Tablet Landscape-Firefox](documentation/tests/trigonometry-exam-nav-tablet-landscape-firefox.png)
+
+**Navigation > Exam Questions > Trigonometry - Tablet Landscape - Chrome**
+
+![Navigation > Exam Questions > Trigonometry-Tablet Landscape-Chrome](documentation/tests/trigonometry-exam-nav-tablet-landscape-chrome.png)
+
+**Navigation > Exam Questions > Trigonometry - Tablet Portrait - Firefox**
+
+![Navigation > Exam Questions > Trigonometry-Tablet Portrait-Firefox](documentation/tests/trigonometry-exam-nav-tablet-portrait-firefox.png)
+
+**Navigation > Exam Questions > Trigonometry - Tablet Portrait - Chrome**
+
+![Navigation > Exam Questions > Trigonometry-Tablet Portrait-Chrome](documentation/tests/trigonometry-exam-nav-tablet-portrait-chrome.png)
+
+**Navigation > Exam Questions > Trigonometry - Phone - Firefox**
+
+![Navigation > Exam Questions > Trigonometry-Phone-Firefox](documentation/tests/trigonometry-exam-nav-phone-firefox.png)
+
+**Navigation > Exam Questions > Trigonometry - Phone - Chrome**
+
+![Navigation > Exam Questions > Trigonometry-Phone-Chrome](documentation/tests/trigonometry-exam-nav-phone-chrome.png)
+
 
 #### Known Bugs
 Number types exam questions says 16 questions but it only has 4.

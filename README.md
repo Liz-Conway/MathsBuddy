@@ -1132,4 +1132,52 @@ With forking you are pushing the updates to your own MathsBuddy repo on github.
 
 **Background video on home page **:  Owner = https://www.vidsplay.com/, Downloaded from = https://www.vidsplay.com/formula-free-stock-video/
 
-****
+**About - Student focussed**: Owner = Anastasiya Gepp, Downloaded from = https://www.pexels.com/photo/woman-standing-in-hallway-while-holding-book-1462630/
+
+**Zoom classes**:  Owner = Julia M Cameron, Downloaded from = https://www.pexels.com/photo/person-writing-on-notebook-4145190/
+
+**Recorded classes**: Adapted from - Owner = Alexas_Fotos, Downloaded from = https://pixabay.com/illustrations/college-student-professor-university-2052868/
+
+**Slack community**: Owner = Austin Distel, Downloaded from = https://unsplash.com/photos/gUIJ0YszPig
+
+**Here 2 help**:  Owner = Andrea Piacquadio, Downloaded from = https://www.pexels.com/photo/elder-sister-and-brother-studying-at-home-3769981/
+
+**Exam Preparation**:  Owner = Julia M Cameron, Downloaded from = https://www.pexels.com/photo/photo-of-woman-teaching-his-son-while-smiling-4145355/
+
+**Centering text with CSS**: https://stackoverflow.com/questions/8508275/how-to-center-a-position-absolute-element
+
+**Evenly space item in a wrapped flexbox row**:  https://stackoverflow.com/questions/44902771/flex-row-space-between-wrapped-items
+
+**Responsive media queries breakpoints**:  Code Institute - Love Running project
+
+**Convert mp4 video to webm video**: https://webm.to/video-webm
+
+**Convert mp4 video to ogg video**: https://www.onlineconverter.com/video-to-ogg
+
+**Compress image files**: www.tinypng.com
+
+**Break words on smaller devices**:  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr
+
+**Inspirational Quote**: Lou Holt
+
+**Prime Numbers video**: Owner = Khan Academy, Youtube=https://www.youtube.com/embed/mIStB5X4U8M
+
+**Prime & Composite numbers video**: Owner = Khan Academy, Youtube=https://www.youtube.com/embed/3h4UK62Qrbo
+
+**Factorising Quadratics video**: Owner = Nancy Pi, Youtube=https://www.youtube.com/embed/YtN9_tCaRQc
+
+**Algebraic Fractions video**:  Owner = CorbettMaths, Youtube=https://www.youtube.com/embed/Aat-_BYvjLg
+
+**Co-ordinate Geometry introduction**: Owner = Fuse School, Youtube=https://www.youtube.com/embed/Byw72mbDBT8
+
+**Equation of a line video**: Owner = CorbettMaths, Youtube=https://www.youtube.com/embed/MJKPASvp0qY
+
+**Co-ordinate Geometry review video**:  Owner = Danswers, Youtube=https://www.youtube.com/embed/9qmW-M2zr6Q
+
+**Pythagoras' Theorem**: Owner = CorbettMaths, Youtube=https://www.youtube.com/embed/iWLVTy_rGjs
+
+**Trigonometric ratios**: Owner = FuseSchool, Youtube=https://www.youtube.com/embed/QThmz7ZJsWM
+
+**Parts of a triangle**: Owner = mathsisfun.com, https://www.mathsisfun.com/algebra/images/adjacent-opposite-hypotenuse.svg
+
+**Daisy McGirr** for being an absolutely amazing mentor

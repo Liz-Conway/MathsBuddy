@@ -130,7 +130,12 @@ The benefit of having past exam papers on the MathsBuddy website to work through
 
 ### Accessibility
 
-The MathsBuddy website was checked to ensure accessibility using the [WAVE](https://wave.webaim.org/) web accessibility evaluation tool.
+The MathsBuddy website was checked to ensure accessibility using the [WAVE](https://wave.webaim.org/) web accessibility evaluation tool. A Lighthouse report was also generated.
+
+**Lighthouse Report**
+
+![Lighthouse Report](documentation/accessibility/lighthouse-report.png)
+
 
 **Home Page**
 ![Home page](documentation/accessibility/home-accessibility.png)
@@ -138,35 +143,46 @@ The MathsBuddy website was checked to ensure accessibility using the [WAVE](http
 **Maths Page**
 ![Maths page](documentation/accessibility/maths-accessibility.png)
 
+
 **About Page**
 ![About page](documentation/accessibility/about-accessibility.png)
+
 
 **Contact Us Page**
 ![Contact Us page](documentation/accessibility/contact-us-accessibility.png)
 
+
 **Number Types Page**
 ![Number Types page](documentation/accessibility/number-types-accessibility.png)
+
 
 **Co-ordinate Geometry Page**
 ![Co-ordinate Geometry page](documentation/accessibility/coordinate-geometry-accessibility.png)
 
+
 **Algebra Page**
 ![Algebra page](documentation/accessibility/algebra-accessibility.png)
+
 
 **Trigonometry Page**
 ![Trigonometry page](documentation/accessibility/trigonometry-accessibility.png)
 
+
 **Number Types Exam Questions Page**
 ![Number Types Exam question page](documentation/accessibility/number-types-exam-questions-accessibility.png)
+
 
 **Co-ordinate Geometry Exam Questions Page**
 ![Co-ordinate Geometry Exam question page](documentation/accessibility/coordinate-geometry-exam-questions-accessibility.png)
 
+
 **Algebra Exam Questions Page**
 ![Algebra Exam question page](documentation/accessibility/algebra-exam-questions-accessibility.png)
 
+
 **Trigonometry Exam Questions Page**
 ![Trigonometry Exam question page](documentation/accessibility/trigonometry-exam-questions-accessibility.png)
+
 
 **404 error Page**
 ![404 error page](documentation/accessibility/404-accessibility.png)
@@ -213,6 +229,7 @@ The MathsBuddy website was checked to ensure accessibility using the [WAVE](http
     - Some videos are served from the MathsBuddy site.
     - Videos served from external sites are displayed within an iframe.
     - For contrast reasons to make the MathsBuddy website accessible to those with vision impairment, text is shown either as dark text on a light background, or light text on a dark background.
+    - The font used on the site is "Gabriela" serif font.  A complementary sans serif font "Roboto Slab" is used only in the footer.5
   
 
 #### Wireframes
@@ -247,7 +264,7 @@ The MathsBuddy website was checked to ensure accessibility using the [WAVE](http
 All testing on the MathsBuddy website will be done manually.
 
 **Heuristic Evaluation**
-Heuristic testing is performed where there an expert in the particular field is not available.  However, an expert has laid out a set of rules for testing.  The non-expert tester can follow these heuristic set of rules, and apply them in place of an expert tester.
+Heuristic testing is performed where an expert in the particular field is not available.  However, an expert has laid out a set of rules for testing.  The non-expert tester can follow these heuristic set of rules, and apply them in place of an expert tester.
 
 For the MathsBuddy website, a set of heuristic rules developed by Jakob Nielson, an expert in usability, will be used to test the usability of the website.
 
@@ -999,8 +1016,6 @@ Trigonometry exam questions Page
 #### Documentation  
 - README.md :  Comprehensive overview of the MathsBuddy website detailing how it works, what its features are, the technologies involved and all the design decisions that were made in creating this learning resource.
 - [Vision doc](documentation/MathsBuddy-Vision.docx) :  Business needs and feature list.
-
-- Site map :  Basic site map with prioritisation and categorisation of each page.
 
 #### Deployment 
 This project is deployed to [Github Pages](https://liz-conway.github.io/MathsBuddy/)

@@ -63,23 +63,34 @@ These screen mockups were created for the MathsBuddy website using the [Multi De
 ## Features
 
 ### Existing Features
-1 Site navigation
-On the MathsBuddy website each page has a header at the top of the page which contains a logo and a NavBar.  On any page if the student clicks the logo they will be redirected to the MathsBuddy home page.
+*1 Site navigation*
+
+On the MathsBuddy website each page has a header at the top of the page which contains a logo and a NavBar.  On any page if the student clicks the logo they will be redirected to the MathsBuddy home page.  The benefit of this is that it is a consistent behaviour across the entire MathsBuddy website.  This means that the student can always get back to the home page, no matter where they are in the site.
+
 The NavBar contains links to the 4 main pages (Home, Maths, About and Contact Us).
+![NavBar](documentation/features/navigation.png)
 
 The NavBar is used so that the student can navigate easily between the major sections of the MathsBuddy website, on every device.
 
-On each of the topic video pages, which are navigated to from the Maths page, there is also a breadcrumb navigation bar.  This breadcrumb navigation bar serves a number of purposes.  Firstly, it allows the student to navigate from one topic page to another, rather than having to go back to the Maths page each time they wish to go from one topic page to another.  Secondly, it allow the student to navigate back up to the parent(Maths) page easily.  Thirdly, the breadcrumb shows the student exactly where they are in the MathsBuddy website.  Students will never feel lost when they use MathsBuddy.
 
-On each of the topic exam questions pages, which are navigated to from the topic video page, there is also a breadcrumb navigation bar.  This breadcrumb navigation bar serves a number of purposes.  Firstly, it allows the student to navigate from one exam question page to another, rather than having to go back to the topic video page each time they wish to go from one exam question page to another.  Secondly, it allow the student to navigate back up to the parent pages easily, both to the topic video page and the Maths page.  Thirdly, the breadcrumb shows the student exactly where they are in the MathsBuddy website.  Students will never feel lost when they use MathsBuddy.
+On each of the topic video pages, which are navigated to from the Maths page, there is also a breadcrumb navigation bar.  
+![Topic breadcrumb navigation](documentation/features/topic-navigation.png)
 
+This breadcrumb navigation bar serves a number of purposes.  Firstly, it allows the student to navigate from one topic page to another, rather than having to go back to the Maths page each time they wish to go from one topic page to another.  Secondly, it allow the student to navigate back up to the parent(Maths) page easily.  Thirdly, the breadcrumb shows the student exactly where they are in the MathsBuddy website.  Students will never feel lost when they use MathsBuddy.
 
-2 Show videos on each topic
+On each of the topic exam questions pages, which are navigated to from the topic video page, there is also a breadcrumb navigation bar.
+![Topic exam breadcrumb navigation](documentation/features/exam-question-navigation.png)
+
+This breadcrumb navigation bar serves a number of purposes.  Firstly, it allows the student to navigate from one exam question page to another, rather than having to go back to the topic video page each time they wish to go from one exam question page to another.  Secondly, it allows the student to navigate back up to the parent pages easily, both to the topic video page and the Maths page.  Thirdly, the breadcrumb shows the student exactly where they are in the MathsBuddy website.  Students will never feel lost when they use MathsBuddy.
+
+*2 Show videos on each topic*
+
 Each topic video page shows 3 videos relating to the topic, except the Trigonometry topic video page which show one image and 2 videos.  None of the videos will play automatically.  All of them have user controls.
+![Topic video page](documentation/features/topic-video-page.png)
 
 Students can click on whichever of these videos they want to watch.  They can expand it to full screen, pause, restart, mute, choose to go back or forward on the video if they wish.
 
-This gives the student full control over a multi-sensory, multimedia learning tool.  Learning is greatlly enhanced for every new sense that is used when studying.  These videos give the student the best chance to retain information from their study session with MathsBuddy.
+This gives the student full control over a multi-sensory, multimedia learning tool.  Learning is greatly enhanced for every new sense that is used when studying.  These videos give the student the best chance to retain information from their study session with MathsBuddy..
 
 These videos come from two distinct types of source:
 
@@ -87,10 +98,43 @@ These videos come from two distinct types of source:
 
        2.2 Videos from external sources.  E.g. Youtube, Khan Academy
 
-3 Display past exam papers for each topic
+*3 Display past exam papers for each topic*
+
 Since the end goal of the Junior Cycle maths programme is for students to sit a formal Department of Education exam, it is imperative that the student has access to questions on each topic that are of the same standard as those that will appear on the exam.
+![Past exam paper page](documentation/features/topic-exam-questions-page.png)
 
 The benefit of having past exam papers on the MathsBuddy website to work through, is that the student will be practising questions that are of the same standard that they will encounter during the exam.  This is a key part of the preparation for any exam, but especially for the Junior Cycle exam which will be the first externally set exam that most students will sit.
+
+*4 Supporting pages*
+
+**Home Page**
+The home page is where the student will land when they access the MathsBuddy website.  As well as the header containing the logo and navbar the home page consists of 
+ - a Title which lets the student know that they are on the MathsBuddy website.
+ - a Subtitle which reassures the student that MathsBuddy is a friendly place to learn
+ - a subtle, non-intrusive background video which lets the student know that this website is all about maths.
+ - a prominent "Call To Action" button which invites the student to enter the main Maths section of the MathsBuddy website.
+
+**Maths page**
+
+The Maths  page contains links to the Number Types, Algebra, Co-ordinate Geometry and Trigonometry topic video pages.  It also contains an inspirational quote displayed against a  background image of a traditional blackboard.
+![Maths page](documentation/features/maths-page.png)
+
+As well as providing inspiration to the students via the central message, the Maths page is an essential central repository of the links to the topic video pages.  This page acts like a central hub for all the resources on the site.
+
+**About page**
+
+The About page contains 6 boxes that provide information about the service that the MathsBuddy team provide, beyond the videos and the exam questions.  Each box shows a relevant image, a service heading and a short description of the service available.
+![About page](documentation/features/about-page.png)
+
+There are six services shown on the About page: Zoom classes, Recorded classes, Here 2 help, Exam prep, Student focussed and Slack community.  Displaying these services will put the student at ease.  They will know that there is support for them as they prepare for the Junior Cycle maths exam.  Just knowing that there is someone out there who care about the student, is on their side and willing to help will take some of the pressure off these students.  Plus, they now know exactly what type of support they will receive.
+
+**Contact Us page**
+
+The Contact Us page consists of a single form which the student can use whenever they have a query.  The form consists of some input fields to collect information about the user: Name, Enquirer type (Student, Parent, etc.), Topic of interest, Email address and Query.  The student has the option to clear the form if they want to start again.  There is a prominent "Submit Query" call to action button on this form.
+![Contact Us page](documentation/features/contact-us-page.png)
+
+The Contact Us page gives a student (or parent or teacher) the opportunity to contact the MathsBuddy team at any time with any questions they might have.  This will give a student great peace of mind knowing that they can reach out whenever they are stuck.
+
 
 ### Features to Implement in the future
 - Send the 'Contact Us' form data to a backend server.
@@ -1080,3 +1124,12 @@ With cloning you are pushing the updates to the ```Liz-Conway/MathsBuddy``` repo
 With forking you are pushing the updates to your own MathsBuddy repo on github.
 
 ## Credits
+**Using rems for CSS** :  https://www.aleksandrhovhannisyan.com/blog/respecting-font-size-preferences-rems-62-5-percent/
+
+**Button pop up**: https://www.tutorialspoint.com/Add-a-pressed-effect-on-button-click-with-CSS
+
+**MathsBuddy logo**: https://codepen.io/Tsankashvili/pen/zmPXGX
+
+**Background video on home page **:  Owner = https://www.vidsplay.com/, Downloaded from = https://www.vidsplay.com/formula-free-stock-video/
+
+****
